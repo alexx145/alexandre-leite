@@ -45,7 +45,7 @@ window.sendWhatsApp = function(e) {
     const encodedText = encodeURIComponent(text);
     
     // Abre a janela do WhatsApp via redirect Web
-    window.open(`https://wa.me/message/QADTUQVEGRIUJ1?text=${encodedText}`, '_blank');
+    window.open(`https://api.whatsapp.com/send?phone=5531982034543&text=${encodedText}`, '_blank');
 };
 
 // Clipboard Email e Toast Alert (Substitui Alerta Nativo)
