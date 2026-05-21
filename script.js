@@ -24,13 +24,46 @@ document.addEventListener("DOMContentLoaded", () => {
     }, observerOptions);
 
     // Selecionamos as que queremos animar
-    const elementsToAnimate = document.querySelectorAll('section, .project-card, .skill-tag');
+    const elementsToAnimate = document.querySelectorAll('section, .project-card, .journalism-card, .skill-tag');
     elementsToAnimate.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'opacity 0.7s ease-out, transform 0.7s ease-out';
         observer.observe(el);
     });
+
+    // 3. Sistema de Filtro do Jornalismo
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const journalismCards = document.querySelectorAll('.journalism-card');
+
+    if (filterButtons.length > 0 && journalismCards.length > 0) {
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remover active de todos os botões
+                filterButtons.forEach(b => b.classList.remove('active'));
+                // Adicionar active ao botão clicado
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                journalismCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.classList.remove('hidden');
+                        // Micro-animação ao filtrar
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(10px)';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                            card.style.transition = 'opacity 0.4s ease-out, transform 0.4s ease-out';
+                        }, 30);
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    }
 });
 
 // Envio de Form para WhatsApp
