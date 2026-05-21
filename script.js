@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const observerOptions = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.1
+        threshold: 0
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -24,13 +24,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }, observerOptions);
 
     // Selecionamos as que queremos animar
-    const elementsToAnimate = document.querySelectorAll('section, .project-card, .journalism-card, .skill-tag');
+    const elementsToAnimate = document.querySelectorAll('section, .project-card, .journalism-card, .skill-tag, .education-item');
     elementsToAnimate.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'opacity 0.7s ease-out, transform 0.7s ease-out';
         observer.observe(el);
     });
+
+    // Fallback de segurança para garantir que nada fique invisível no mobile caso haja erro no scroll
+    setTimeout(() => {
+        elementsToAnimate.forEach(el => {
+            if (el.style.opacity === '0') {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            }
+        });
+    }, 2500);
 
     // 3. Sistema de Filtro do Jornalismo
     const filterButtons = document.querySelectorAll('.filter-btn');
