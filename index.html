@@ -209,10 +209,14 @@
                     <h2 class="section-title text-center" style="margin-bottom: 2rem;">Journalism Portfolio</h2>
                 </div>
 
-                <h3 class="category-title" style="margin-top: 2rem;">Journalism: Politics & City</h3>
-                <div class="project-grid mb-4">
+                <div class="filter-bar" style="margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="politics">Politics & City</button>
+                    <button class="filter-btn" data-filter="sports">Sports Journalism</button>
+                </div>
+                <div class="project-grid journalism-grid mb-4">
             
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="politics" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: var(--accent-color); display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-landmark"></i>
                         </div>
@@ -226,7 +230,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="politics" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: var(--accent-color); display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-users-viewfinder"></i>
                         </div>
@@ -240,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="politics" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: var(--accent-color); display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-shop"></i>
                         </div>
@@ -253,12 +257,9 @@
                             <a href="https://jornaldevicosa.home.blog/2020/10/01/programa-vendedor-legal-normatiza-comercio-ambulante-em-vicosa/" target="_blank" class="btn btn-secondary w-100" style="margin-top: 1.5rem; font-size: 0.9rem;">Read Article <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                </div>
 
-                <h3 class="category-title" style="margin-top: 2rem;">Sports Journalism</h3>
-                <div class="project-grid mb-4">
             
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="sports" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: #2b2d42; display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-regular fa-futbol"></i>
                         </div>
@@ -272,7 +273,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="sports" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: #2b2d42; display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-shirt"></i>
                         </div>
@@ -286,7 +287,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="sports" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: #2b2d42; display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-virus-covid"></i>
                         </div>
@@ -300,7 +301,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="sports" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: #2b2d42; display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-star"></i>
                         </div>
@@ -314,7 +315,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-card journalism-card" data-category="sports" style="display: flex; flex-direction: column;">
                         <div style="height: 160px; background-color: #2b2d42; display: flex; align-items: center; justify-content: center; color: white; font-size: 3.5rem;">
                             <i class="fa-solid fa-thumbs-down"></i>
                         </div>
@@ -343,145 +344,6 @@
                     </div>
                 </div>
 
-            </div>
-        </section>
-
-        <!-- Journalism Section -->
-        <section class="journalism" id="jornalismo" style="background-color: var(--surface-color); border-top: 1px solid var(--border-color); padding: 6.5rem 0;">
-            <div class="container">
-                <h2 class="section-title text-center">Journalism Portfolio</h2>
-                <p class="journalism-intro">
-                    Bachelor in Social Communication with a major in Journalism from the Federal University of Viçosa (UFV). Practical experience covering local news, regional politics, urban economy, health, and sports journalism.
-                </p>
-
-                <!-- Filter Bar -->
-                <div class="filter-bar">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="sports">Sports Journalism</button>
-                    <button class="filter-btn" data-filter="politics">Politics</button>
-                    <button class="filter-btn" data-filter="city-economy">City & Economy</button>
-                    <button class="filter-btn" data-filter="health">Health & Covid-19</button>
-                </div>
-
-                <!-- Articles Grid -->
-                <div class="journalism-grid">
-                    <!-- Article 1: Sports -->
-                    <div class="journalism-card" data-category="sports">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-futbol"></i> Sports</span>
-                            <span class="journalism-date">21/08/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">FIFA-Standard Soccer Field to be Built in Viçosa</h4>
-                        <p class="journalism-card-desc">A new soccer field with FIFA-standard dimensions and a capacity for 800 people will be constructed in the Cidade Nova neighborhood in Viçosa. Read the full coverage.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/08/21/campo-de-futebol-padrao-fifa-sera-construido-em-vicosa/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 2: CPF Rotation -->
-                    <div class="journalism-card" data-category="politics">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-landmark"></i> Politics</span>
-                            <span class="journalism-date">26/08/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Mayor of Viçosa Positions Himself on Petition to Cancel CPF Rotation</h4>
-                        <p class="journalism-card-desc">Local entrepreneurs launched a petition calling for the cancellation of the CPF rotation system adopted during the pandemic. In an exclusive interview, the mayor shared his stance on the matter.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/08/26/prefeito-de-vicosa-se-posiciona-sobre-peticao-para-cancelamento-de-rodizio-de-cpf/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 3: Vendedor Legal -->
-                    <div class="journalism-card" data-category="city-economy">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-city"></i> City & Economy</span>
-                            <span class="journalism-date">01/10/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">"Vendedor Legal" Program Regulates Street Vending in Viçosa</h4>
-                        <p class="journalism-card-desc">An in-depth analysis of the municipal program that regulated street trade in the city, ensuring standardization, formalization, and designated public spaces for self-employed vendors.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/10/01/programa-vendedor-legal-normatiza-comercio-ambulante-em-vicosa/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 4: Intercity Transport -->
-                    <div class="journalism-card" data-category="city-economy">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-bus"></i> City & Economy</span>
-                            <span class="journalism-date">19/08/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Weeks After New Regulations, How is Intercity Transport in Viçosa?</h4>
-                        <p class="journalism-card-desc">An investigative report with transport companies detailing operational impacts and the adaptation of passengers to the new sanitary guidelines in the region.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/08/19/semanas-apos-normatizacao-do-funcionamento-como-esta-o-transporte-intermunicipal-em-vicosa/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 5: Covid-19 Cases -->
-                    <div class="journalism-card" data-category="health">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-shield-virus"></i> Health</span>
-                            <span class="journalism-date">27/11/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Covid-19 Cases in Viçosa and Neighboring Municipalities</h4>
-                        <p class="journalism-card-desc">Comprehensive data analysis detailing the epidemiological evolution of the pandemic in the microregion of Viçosa based on official health department bulletins.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/11/27/casos-de-covid-19-em-vicosa-e-em-cidades-vizinhas/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 6: Religious Activities -->
-                    <div class="journalism-card" data-category="city-economy">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-church"></i> City & Economy</span>
-                            <span class="journalism-date">17/09/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Viçosa Authorizes the Resumption of In-Person Religious Activities</h4>
-                        <p class="journalism-card-desc">Journalistic coverage regarding the specific distancing rules and health protocols established by the local government to allow in-person church services to return.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/09/17/vicosa-autoriza-a-volta-das-atividades-religiosas-de-forma-presencial/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 7: Elected Officials -->
-                    <div class="journalism-card" data-category="politics">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-users-line"></i> Politics</span>
-                            <span class="journalism-date">17/11/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Meet the Elected Mayors and Councilors in Viçosa and Region</h4>
-                        <p class="journalism-card-desc">A complete election summary showing profiles, parties, and vote shares of the new executive and legislative officials elected to govern local municipalities in the area.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/11/17/conheca-os-vereadores-e-prefeitos-eleitos-em-vicosa-e-cidades-vizinhas/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 8: City Council Broadcast -->
-                    <div class="journalism-card" data-category="politics">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-video-slash"></i> Politics</span>
-                            <span class="journalism-date">11/09/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">City Council Meetings Will Not Be Broadcasted During Electoral Period</h4>
-                        <p class="journalism-card-desc">A report detailing the legal regulations and institutional decision to suspend live broadcast streams of city council meetings during election season.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/09/11/reuniao-da-camara-municipal-nao-tera-transmissao-durante-periodo-eleitoral/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Article 9: Decree Alteration -->
-                    <div class="journalism-card" data-category="city-economy">
-                        <div class="journalism-card-header">
-                            <span class="journalism-badge"><i class="fa-solid fa-file-signature"></i> City & Economy</span>
-                            <span class="journalism-date">27/11/2020</span>
-                        </div>
-                        <h4 class="journalism-card-title">Mayor Modifies Decree Regarding Religious Ceremonies in Viçosa</h4>
-                        <p class="journalism-card-desc">News update focusing on administrative changes in municipal regulations, adjusting audience size limits and occupancy caps for temples during pandemic shifts.</p>
-                        <a href="https://jornaldevicosa.home.blog/2020/11/27/prefeito-altera-decreto-sobre-realizacao-de-cerimonias-religiosas-em-vicosa/" target="_blank" class="journalism-card-link">
-                            Read Full Article <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
 
