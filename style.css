@@ -349,3 +349,9 @@ details.more > summary { font-size: 1rem; color: var(--text-primary); justify-co
     .fab .ic { width: 18px; height: 18px; }
     .fab.fab-hidden { opacity: 0; transform: translateY(12px); pointer-events: none; }
 }
+
+/* Seção própria de experiência internacional */
+.section-title + .photo-card { margin-top: 1.5rem; }
+.alt .photo-card { background: var(--bg-color); }
+.cert { background: var(--surface-color); }
+.alt .skill-tag { background: var(--bg-color); }
