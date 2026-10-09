@@ -56,4 +56,8 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Marketing de uma pessoa só: como priorizar e o que reportar](https://alexandreleite-mkt.vercel.app/blog/marketing-de-uma-pessoa-so-como-priorizar.html): Único profissional de marketing da empresa? Veja um método simples: uma meta por trimestre, três apostas, lista de 'agora não' e reporte em uma página.
+- [Custo por lead subiu? 6 pontos da landing page para conferir antes de aumentar a verba](https://alexandreleite-mkt.vercel.app/blog/custo-por-lead-alto-landing-page.html): Quando o custo por lead sobe, o problema costuma estar depois do clique. Veja 6 pontos da landing page para conferir antes de pedir mais verba.
 - [Como fazer sua página ser citada por IA: 6 ajustes de estrutura](https://alexandreleite-mkt.vercel.app/blog/como-ser-citado-por-ia-aeo.html): A IA cita a página que responde primeiro, não a mais longa. Veja 6 ajustes de estrutura (AEO) para seu conteúdo aparecer nas respostas de IA.
+- [Como checar dados antes de publicar um conteúdo: checklist de 5 pontos](https://alexandreleite-mkt.vercel.app/blog/como-checar-dados-antes-de-publicar.html): Número sem fonte tira a confiança do leitor, do buscador e da IA. Veja o checklist de 5 pontos que trago do jornalismo para o conteúdo de marca.
+- [Agente de IA para qualificar leads: o que definir antes de ligar](https://alexandreleite-mkt.vercel.app/blog/agente-de-ia-para-qualificar-leads.html): A IA aplica o critério que você escreveu. Veja as 6 definições que precisam existir antes de colocar um agente de IA para qualificar leads.
