@@ -23,6 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
         showAll();
     }
 
+    // Botão flutuante de contato (celular): aparece depois do topo e some no rodapé
+    const fab = document.getElementById('fab');
+    const hero = document.getElementById('home');
+    const footer = document.getElementById('contato');
+    if (fab && hero && footer && 'IntersectionObserver' in window) {
+        const seen = { hero: true, footer: false };
+        const update = () => fab.classList.toggle('fab-hidden', seen.hero || seen.footer);
+        new IntersectionObserver(es => { seen.hero = es[0].isIntersecting; update(); }).observe(hero);
+        new IntersectionObserver(es => { seen.footer = es[0].isIntersecting; update(); }).observe(footer);
+    }
+
     // 3. Filtro do jornalismo
     const filterButtons = document.querySelectorAll('.filter-btn');
     const cards = document.querySelectorAll('.journalism-card');
