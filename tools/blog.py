@@ -251,7 +251,9 @@ def build(posts):
     for i, p in enumerate(posts):
         same = [q for q in posts[i + 1:] if q["category"] == p["category"]]
         rest = [q for q in posts[i + 1:] if q["category"] != p["category"]]
-        write(f"blog/{p['slug']}.html", post_page(p, (same + rest)[:3]))
+        rel = (same + rest)[:3]
+        rel += list(reversed(posts[:i]))[:3 - len(rel)]  # os mais antigos completam com os vizinhos mais novos (estável)
+        write(f"blog/{p['slug']}.html", post_page(p, rel))
     pages = max(1, -(-len(posts) // PER_PAGE))
     for n in range(1, pages + 1):
         name, content = index_page(posts[(n - 1) * PER_PAGE:n * PER_PAGE], n, pages)
