@@ -1,0 +1,41 @@
+{
+ "slug": "agente-de-ia-para-qualificar-leads",
+ "title": "Agente de IA para qualificar leads: o que definir antes de ligar",
+ "seo_title": "Agente de IA para qualificar leads: o que definir antes",
+ "description": "A IA aplica o critério que você escreveu. Veja as 6 definições que precisam existir antes de colocar um agente de IA para qualificar leads.",
+ "date": "2026-10-09",
+ "category": "CRM e automação",
+ "keywords": [
+  "agente de IA",
+  "qualificação de leads",
+  "lead scoring",
+  "CRM",
+  "IA conversacional",
+  "marketing e vendas",
+  "BANT"
+ ],
+ "quick_answer": "Antes de colocar um agente de IA para qualificar leads, defina por escrito seis coisas: o critério de lead pronto acordado com vendas, as poucas perguntas que mudam o próximo passo, a regra de passagem para o vendedor, os limites do que a IA não responde, o aviso de que a pessoa fala com uma IA e uma revisão semanal das conversas.",
+ "body_html": "<p>Agente de IA para qualificar leads virou pedido comum no marketing. O risco é ligar a ferramenta antes de definir o que é um bom lead. Nesse caso, a IA só repete a confusão, mais rápido.</p>\n<p>Neste texto, mostro o que eu defino antes de colocar um agente para conversar com contatos reais.</p>\n\n<h2>O que um agente de IA faz na qualificação de leads?</h2>\n<p><strong>Um agente de IA de qualificação conversa com o contato, faz as perguntas combinadas, classifica o lead conforme um critério e encaminha os prontos para um vendedor.</strong> Ele não decide sozinho o que é um bom lead. Ele aplica a regra que o time escreveu.</p>\n<p>O ganho principal é de tempo de resposta. Quem preenche um formulário à noite ou no fim de semana recebe atendimento na hora, e o vendedor começa o dia com as conversas já resumidas.</p>\n\n<h2>Quais são as 6 definições que vêm antes da ferramenta?</h2>\n<h3>1. Critério escrito</h3>\n<p>Perfil, necessidade e momento de compra, acordados com vendas. Se marketing e vendas discordam sobre o que é um lead pronto, a IA vai herdar essa discordância. Modelos conhecidos, como o BANT (orçamento, autoridade, necessidade e prazo), servem de ponto de partida.</p>\n<h3>2. Poucas perguntas</h3>\n<p>Só as que mudam o próximo passo. Se a resposta não altera o encaminhamento do lead, a pergunta não precisa existir.</p>\n<h3>3. Regra de passagem</h3>\n<p>Defina quando o lead vai para um vendedor e com qual resumo da conversa. O vendedor não deve precisar perguntar de novo o que a pessoa já respondeu.</p>\n<h3>4. Limites</h3>\n<p>Liste o que a IA não responde, como preço fechado, condições de contrato e prazo de entrega. Nesses casos, ela informa que um especialista vai continuar a conversa.</p>\n<h3>5. Transparência</h3>\n<p>A pessoa sabe que fala com uma IA e pode pedir um humano a qualquer momento. Esconder isso prejudica a confiança quando o contato percebe.</p>\n<h3>6. Revisão semanal</h3>\n<p>Leia conversas reais e compare a classificação da IA com o que vendas encontrou. É nessa revisão que você descobre perguntas mal formuladas e critérios que precisam de ajuste.</p>\n\n<h2>Como escrever o critério de lead pronto?</h2>\n<p><strong>Escreva o critério em frases que qualquer pessoa do time consiga aplicar do mesmo jeito.</strong> Termos como \"lead quente\" não servem, porque cada vendedor entende de uma forma.</p>\n<table>\n<thead><tr><th>Dimensão</th><th>Vago</th><th>Aplicável</th></tr></thead>\n<tbody>\n<tr><td>Perfil</td><td>Cliente com potencial</td><td>Empresa do segmento atendido, na região de atuação</td></tr>\n<tr><td>Necessidade</td><td>Demonstrou interesse</td><td>Descreveu um problema que o produto resolve</td></tr>\n<tr><td>Momento</td><td>Quer comprar logo</td><td>Pretende decidir nos próximos 30 dias</td></tr>\n<tr><td>Próximo passo</td><td>Passar para vendas</td><td>Agendar visita ou reunião com data e horário</td></tr>\n</tbody>\n</table>\n\n<h2>Como saber se o agente está funcionando?</h2>\n<p>Olhe para o que acontece depois da passagem, e não só para o volume de conversas. Três números ajudam:</p>\n<ul>\n<li>Tempo até a primeira resposta ao lead.</li>\n<li>Proporção de leads passados que vendas aceita como prontos.</li>\n<li>Conversão de lead em venda, comparada com o período anterior.</li>\n</ul>\n<p>Se vendas recusa muitos leads que a IA classificou como prontos, o problema está no critério ou nas perguntas, e não na ferramenta.</p>\n\n<h2>O que aprendi usando um agente de IA em vendas?</h2>\n<p>Trabalhei em uma revenda de veículos nos EUA em que implantei e treinei um agente de IA conversacional para qualificar contatos fora do horário comercial e agendar visitas à loja. Junto com landing pages refeitas e uma sequência de follow-up padronizada para os vendedores, a conversão de lead em venda subiu 20%. O caso está nos <a href=\"../#resultados\">resultados do portfólio</a>.</p>\n<p>O que guardo desse trabalho é que marketing e vendas precisam usar a mesma definição de lead pronto, e isso vem antes de qualquer ferramenta. A página que recebe o contato também conta: escrevi sobre ela em <a href=\"custo-por-lead-alto-landing-page.html\">6 pontos da landing page para conferir antes de aumentar a verba</a>.</p>\n<blockquote>Resumo prático: a IA dá escala ao processo. O critério continua sendo decisão do time.</blockquote>",
+ "faq": [
+  {
+   "q": "O que é qualificação de leads?",
+   "a": "É o processo de avaliar se um contato tem perfil, necessidade e momento de compra para ser atendido por um vendedor. Ela evita que a equipe de vendas gaste tempo com contatos que ainda não estão prontos."
+  },
+  {
+   "q": "A IA substitui o vendedor na qualificação?",
+   "a": "Não. A IA faz o primeiro atendimento, coleta as informações combinadas e encaminha os leads prontos. A negociação, as exceções e a decisão sobre o critério continuam com as pessoas."
+  },
+  {
+   "q": "Preciso avisar que o atendimento é feito por IA?",
+   "a": "É a prática que eu recomendo. Informar que a pessoa está falando com uma IA e oferecer a opção de um atendente humano preserva a confiança e evita frustração."
+  },
+  {
+   "q": "O que é BANT?",
+   "a": "É um modelo de qualificação que avalia quatro pontos: orçamento (Budget), autoridade para decidir (Authority), necessidade (Need) e prazo (Timeline). Ele pode ser adaptado ao ciclo de venda de cada empresa."
+  },
+  {
+   "q": "Com que frequência devo revisar as conversas do agente?",
+   "a": "Toda semana, pelo menos no início. Ler conversas reais e comparar a classificação da IA com o retorno de vendas mostra rapidamente o que ajustar nas perguntas e no critério."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "custo-por-lead-alto-landing-page",
+ "title": "Custo por lead subiu? 6 pontos da landing page para conferir antes de aumentar a verba",
+ "seo_title": "Custo por lead alto: 6 pontos para conferir na landing page",
+ "description": "Quando o custo por lead sobe, o problema costuma estar depois do clique. Veja 6 pontos da landing page para conferir antes de pedir mais verba.",
+ "date": "2026-10-09",
+ "category": "Marketing",
+ "keywords": [
+  "custo por lead",
+  "CPL",
+  "landing page",
+  "CRO",
+  "Meta Ads",
+  "Google Ads",
+  "mídia paga",
+  "taxa de conversão"
+ ],
+ "quick_answer": "Quando o custo por lead sobe, confira a página de destino antes de mexer no anúncio ou aumentar a verba. Veja se o título repete a oferta do anúncio, se há um único objetivo, se o formulário é curto, se a página funciona bem no celular, se os testes mudam uma variável por vez e se a métrica acompanhada é o custo por lead qualificado.",
+ "body_html": "<p>Quando o custo por lead sobe, o reflexo é mexer no anúncio: novo criativo, novo público, mais orçamento. Muitas vezes o problema está um clique depois.</p>\n<p>O anúncio faz uma promessa. A página precisa cumprir essa promessa em poucos segundos. Quando não cumpre, a empresa paga pelo clique e perde o lead.</p>\n\n<h2>Por que aumentar a verba não resolve?</h2>\n<p><strong>Mais verba compra mais visitas, mas não muda a proporção de visitantes que viram lead.</strong> Se a página converte mal, dobrar o investimento só dobra o número de pessoas que chegam e saem sem preencher o formulário.</p>\n<p>A conta é simples: o custo por lead é o custo por clique dividido pela taxa de conversão da página. Dá para baixar o custo por lead negociando cliques mais baratos ou fazendo mais visitantes converterem. A segunda alavanca costuma estar menos explorada e depende menos do leilão de anúncios.</p>\n\n<h2>Quais são os 6 pontos para conferir na landing page?</h2>\n<p>Esta é a lista que eu passo antes de pedir mais verba em Meta Ads ou Google Ads.</p>\n<h3>1. Mesma mensagem do anúncio</h3>\n<p>O título da página repete a oferta do anúncio, com as mesmas palavras. Se o anúncio promete uma demonstração grátis de 15 minutos, o visitante precisa ler isso assim que a página abre.</p>\n<h3>2. Uma página, um objetivo</h3>\n<p>Um botão principal e nenhum menu que leve a pessoa para longe. Cada link extra é uma saída. A página inicial do site quase nunca é um bom destino para campanha.</p>\n<h3>3. Formulário enxuto</h3>\n<p>Peça só os campos que a equipe de vendas realmente usa no primeiro contato. O restante pode ser perguntado depois, na conversa.</p>\n<h3>4. Celular primeiro</h3>\n<p>Boa parte de quem clica em anúncio de rede social está no celular. A página precisa carregar rápido e mostrar a oferta e o botão sem que a pessoa tenha que rolar a tela.</p>\n<h3>5. Um teste por vez</h3>\n<p>Escreva a hipótese, mude uma variável e defina antes qual resultado encerra o teste. Trocar título, imagem e formulário ao mesmo tempo impede saber o que funcionou.</p>\n<h3>6. Métrica certa</h3>\n<p>Acompanhe custo por lead qualificado e custo de aquisição de cliente (CAC), e não apenas custo por clique e taxa de cliques. Um anúncio pode ter clique barato e trazer contatos que nunca compram.</p>\n\n<h2>Como fica uma página antes e depois do ajuste?</h2>\n<p>O exemplo abaixo usa uma campanha de demonstração de software. O anúncio é o mesmo nos dois casos.</p>\n<table>\n<thead><tr><th>Elemento</th><th>Antes</th><th>Depois</th></tr></thead>\n<tbody>\n<tr><td>Anúncio</td><td>Demonstração grátis em 15 minutos</td><td>Demonstração grátis em 15 minutos</td></tr>\n<tr><td>Título da página</td><td>Bem-vindo à nossa empresa</td><td>Agende sua demonstração grátis de 15 minutos</td></tr>\n<tr><td>Navegação</td><td>Menu com Sobre, Blog e Contato</td><td>Sem menu, um único botão</td></tr>\n<tr><td>Formulário</td><td>Nove campos</td><td>Três campos</td></tr>\n<tr><td>Botão</td><td>Enviar</td><td>Quero minha demonstração</td></tr>\n</tbody>\n</table>\n\n<h2>Quem deve ser o dono da página de destino?</h2>\n<p><strong>A página de destino precisa ter um responsável, e essa pessoa deve acompanhar a campanha junto com quem gerencia os anúncios.</strong> Em muitas operações a mídia cuida do anúncio, o conteúdo cuida do site e a página fica sem dono. É aí que a mensagem se perde.</p>\n<p>Em projetos freelance em que eu era responsável por anúncios, SEO e site ao mesmo tempo, a captação de novos clientes cresceu 30%. O que guardo desse trabalho é que campanha e página funcionam como uma peça só. Você encontra esse caso nos <a href=\"../#resultados\">resultados do portfólio</a>.</p>\n<p>Uma ordem de trabalho que evita desperdício:</p>\n<ol>\n<li>Abra a página no celular, vindo do próprio anúncio.</li>\n<li>Passe pelos seis pontos e anote o que falha.</li>\n<li>Corrija primeiro mensagem e formulário, que costumam ter mais efeito.</li>\n<li>Acompanhe o custo por lead qualificado por algumas semanas.</li>\n<li>Só então decida sobre a verba.</li>\n</ol>\n<blockquote>Resumo prático: mídia paga compra a visita. Quem converte é a página.</blockquote>",
+ "faq": [
+  {
+   "q": "O que é custo por lead (CPL)?",
+   "a": "É o valor investido em mídia dividido pelo número de leads gerados no mesmo período. Ele depende de duas coisas: quanto custa cada clique e quantos visitantes da página viram lead."
+  },
+  {
+   "q": "Qual a diferença entre CPL e CAC?",
+   "a": "O CPL mede quanto custa gerar um contato. O CAC mede quanto custa conquistar um cliente, somando mídia e demais custos de marketing e vendas. Um CPL baixo com leads ruins pode resultar em um CAC alto."
+  },
+  {
+   "q": "Posso usar a página inicial do site como destino do anúncio?",
+   "a": "Em geral, não é a melhor escolha. A página inicial fala com vários públicos e tem muitos caminhos de saída. Uma página feita para a oferta do anúncio, com um único objetivo, costuma converter melhor."
+  },
+  {
+   "q": "Quantos campos o formulário deve ter?",
+   "a": "O mínimo que a equipe de vendas precisa para fazer o primeiro contato. Cada campo a mais é um motivo para a pessoa desistir, então vale perguntar o resto na conversa."
+  },
+  {
+   "q": "Quanto tempo devo esperar para avaliar uma mudança na página?",
+   "a": "O suficiente para ter volume de visitas e leads que permita comparar. Em campanhas pequenas isso pode levar algumas semanas. Definir o critério antes de começar evita decidir no impulso."
+  },
+  {
+   "q": "Quando faz sentido aumentar a verba?",
+   "a": "Quando a página já cumpre a promessa do anúncio, o custo por lead qualificado está dentro do esperado e a equipe de vendas consegue atender mais contatos sem perder velocidade de resposta."
+  }
+ ]
+}
