@@ -1,0 +1,45 @@
+{
+ "slug": "como-ser-citado-por-ia-aeo",
+ "title": "Como fazer sua página ser citada por IA: 6 ajustes de estrutura",
+ "seo_title": "Como ser citado por IA: 6 ajustes de AEO na sua página",
+ "description": "A IA cita a página que responde primeiro, não a mais longa. Veja 6 ajustes de estrutura (AEO) para seu conteúdo aparecer nas respostas de IA.",
+ "date": "2026-10-09",
+ "category": "SEO e IA",
+ "keywords": [
+  "AEO",
+  "GEO",
+  "SEO para IA",
+  "Answer Engine Optimization",
+  "ser citado por IA",
+  "pirâmide invertida",
+  "marketing de conteúdo"
+ ],
+ "quick_answer": "Para uma página ser citada por IA, a resposta precisa vir logo depois de um subtítulo em forma de pergunta, em duas ou três frases que façam sentido sozinhas. Trate um assunto por bloco, use os termos exatos, informe fonte e data dos dados e identifique o autor. A IA aproveita trechos, não páginas inteiras.",
+ "body_html": "<p>Na busca com IA, a resposta que aparece para a pessoa costuma ser montada com trechos de várias páginas. O ChatGPT, o Gemini, o Perplexity e os resumos de IA do Google leem páginas, separam pedaços e reescrevem ou citam os que resolvem a pergunta. Um pedaço só é aproveitado quando faz sentido sozinho, fora do artigo de onde saiu.</p>\n<p>É por isso que muita página boa fica de fora. O conteúdo está certo, mas a resposta só aparece no sexto parágrafo, depois de uma introdução longa. Para o leitor com pressa, para o buscador e para a IA, é como se ela não existisse.</p>\n\n<h2>O que é AEO e por que a estrutura pesa tanto?</h2>\n<p><strong>AEO (Answer Engine Optimization) é o trabalho de preparar um conteúdo para ser usado como resposta por assistentes de IA e por buscadores.</strong> Você também vai encontrar o termo GEO (Generative Engine Optimization) para a mesma ideia. Não substitui o SEO: a página continua precisando ser encontrada, rastreada e considerada confiável. O que muda é o cuidado com a forma como cada trecho é escrito.</p>\n<p>No SEO tradicional, a disputa é pela posição da página inteira. Na resposta gerada por IA, a disputa é por trecho. Uma página pode estar bem posicionada e mesmo assim não ser citada, porque nenhum parágrafo dela responde à pergunta de forma direta e completa.</p>\n\n<h2>Quais são os 6 ajustes que eu reviso em uma página?</h2>\n<p>Esta é a lista que eu uso quando reviso um conteúdo pensando em SEO e em AEO ao mesmo tempo. Nenhum item exige ferramenta paga.</p>\n<h3>1. Pergunta no subtítulo</h3>\n<p>Escreva o subtítulo do jeito que a pessoa perguntaria. \"Como funciona o pedido online?\" funciona melhor do que \"Funcionamento\". A pergunta no subtítulo avisa ao leitor e à máquina qual dúvida aquele bloco resolve.</p>\n<h3>2. Resposta logo abaixo</h3>\n<p>Nas duas ou três primeiras frases depois do subtítulo, entregue a resposta. O detalhe, o contexto e o exemplo vêm depois. Se alguém ler só esse começo, já precisa sair com a dúvida resolvida.</p>\n<h3>3. Um assunto por bloco</h3>\n<p>Cada seção trata de uma coisa só e se sustenta sem o resto do texto. Evite frases como \"como vimos acima\" ou \"conforme explicado antes\". Fora da página, elas não significam nada.</p>\n<h3>4. Termos exatos</h3>\n<p>Use o nome do produto, da categoria e do conceito. Troque \"essa solução\" e \"a ferramenta\" pelo nome real. Pronomes e apelidos obrigam a IA a adivinhar do que você está falando, e ela pode preferir uma página que deixou isso claro.</p>\n<h3>5. Fonte e data</h3>\n<p>Diga de onde veio cada dado e quando a página foi atualizada. Número sem fonte tira a confiança do leitor e é um motivo para o trecho ser ignorado. Se você não tem a fonte, escreva sem o número.</p>\n<h3>6. Autor identificado</h3>\n<p>Mostre quem escreveu e por que essa pessoa entende do assunto. Nome, cargo, uma linha de experiência e um link para o perfil profissional já resolvem. Conteúdo sem autor parece conteúdo de ninguém.</p>\n\n<h2>Como fica uma seção antes e depois do ajuste?</h2>\n<p>O exemplo abaixo usa uma dúvida comum em um site de sistema para restaurantes. O conteúdo é o mesmo nas duas versões. Só a ordem e a forma mudam.</p>\n<table>\n<thead><tr><th>Elemento</th><th>Antes</th><th>Depois</th></tr></thead>\n<tbody>\n<tr><td>Subtítulo</td><td>Funcionamento</td><td>Como funciona o pedido online?</td></tr>\n<tr><td>Primeira frase</td><td>Contexto sobre o mercado de delivery</td><td>O cliente escolhe os itens, paga e acompanha a entrega pelo celular</td></tr>\n<tr><td>Onde está a resposta</td><td>No sexto parágrafo</td><td>Nas duas primeiras frases</td></tr>\n<tr><td>Como o produto é citado</td><td>\"Essa solução\"</td><td>Nome do produto e da categoria</td></tr>\n<tr><td>Dados</td><td>Número sem origem</td><td>Número com fonte e data</td></tr>\n<tr><td>Autoria</td><td>Sem assinatura</td><td>Nome, cargo e link do autor</td></tr>\n</tbody>\n</table>\n\n<h2>Vale mais reorganizar uma página ou escrever outra?</h2>\n<p><strong>Na maioria dos casos, reorganizar uma página que já existe rende mais do que escrever outra do zero.</strong> A página antiga já foi rastreada, pode ter links apontando para ela e costuma ter um histórico de buscas no Google Search Console. Falta apenas colocar a resposta no lugar certo.</p>\n<p>Quando trabalhei com conteúdo em um SaaS de gestão para restaurantes, o posicionamento orgânico do site cresceu 30% com SEO técnico e de conteúdo. O que guardo desse trabalho é que revisar o que já estava publicado foi parte importante do resultado. Você encontra esse e outros casos na seção de <a href=\"../#resultados\">resultados do meu portfólio</a>.</p>\n<p>Uma ordem de trabalho que funciona bem:</p>\n<ol>\n<li>Liste as páginas que já recebem impressões no Google Search Console.</li>\n<li>Para cada uma, anote a pergunta principal que ela deveria responder.</li>\n<li>Confira se a resposta está nas primeiras frases do bloco certo.</li>\n<li>Aplique os 6 ajustes e atualize a data da página.</li>\n<li>Acompanhe por algumas semanas antes de mexer de novo.</li>\n</ol>\n\n<h2>O que o jornalismo tem a ver com isso?</h2>\n<p>O jornalismo chama essa técnica de pirâmide invertida: o mais importante vem primeiro, e os detalhes aparecem em ordem decrescente de importância. Ela existe porque o leitor pode parar em qualquer parágrafo e precisa sair informado mesmo assim.</p>\n<p>Sou formado em jornalismo e uso a mesma lógica no marketing de conteúdo. A pergunta que faço ao revisar um texto é simples: se a pessoa ler só este bloco, ela entende? Se a resposta for sim, o trecho serve para o leitor com pressa, para o buscador e para a IA.</p>\n<blockquote>Resumo prático: pergunta no subtítulo, resposta nas primeiras frases, um assunto por bloco, termos exatos, fonte com data e autor identificado.</blockquote>",
+ "faq": [
+  {
+   "q": "O que é AEO?",
+   "a": "AEO (Answer Engine Optimization) é a preparação de um conteúdo para ser usado como resposta por assistentes de IA e buscadores. Na prática, significa escrever respostas diretas, completas e fáceis de extrair, logo abaixo de subtítulos em forma de pergunta."
+  },
+  {
+   "q": "AEO substitui o SEO?",
+   "a": "Não. A página ainda precisa ser rastreada, indexada e considerada confiável, que é o trabalho do SEO. O AEO acrescenta o cuidado com a forma de cada trecho, para que ele possa ser citado fora da página."
+  },
+  {
+   "q": "Qual a diferença entre AEO e GEO?",
+   "a": "Os dois termos são usados para a mesma ideia: otimizar conteúdo para respostas geradas por IA. GEO significa Generative Engine Optimization. A escolha do nome varia entre profissionais, mas as práticas são as mesmas."
+  },
+  {
+   "q": "Texto longo ajuda a ser citado por IA?",
+   "a": "O tamanho sozinho não ajuda. O que conta é ter um trecho que responda à pergunta de forma direta e que faça sentido isolado. Um texto longo com a resposta escondida no meio tende a perder para um texto menor que responde primeiro."
+  },
+  {
+   "q": "Preciso reescrever todo o meu site?",
+   "a": "Não. Comece pelas páginas que já recebem impressões no Google Search Console e reorganize cada uma: pergunta no subtítulo, resposta nas primeiras frases, fonte, data e autor. Reorganizar costuma render mais do que criar páginas novas."
+  },
+  {
+   "q": "Como saber se uma IA está citando minha página?",
+   "a": "Faça nas ferramentas de IA as perguntas que o seu público faria e veja quais fontes aparecem. Também vale acompanhar no Google Search Console as consultas em forma de pergunta e observar o tráfego de referência vindo de assistentes de IA na sua ferramenta de análise."
+  }
+ ]
+}
