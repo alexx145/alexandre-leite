@@ -53,3 +53,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 - [A corrida pelo título da La Liga está totalmente em aberto: quem leva essa?](https://ofutebolnewsreal.wordpress.com/2020/06/22/a-corrida-pelo-titulo-da-la-liga-esta-totalmente-em-aberto-quem-leva-essa/)
 - [Juninho Pernambucano é mesmo o maior jogador nordestino da história?](https://ofutebolnewsreal.wordpress.com/2020/05/27/juninho-pernambucano-e-mesmo-o-maior-jogador-nordestino/)
 - [Jornal elege 20 piores contratações da Premier League; brasileiros estão na lista](https://ofutebolnewsreal.wordpress.com/2020/06/01/jornal-elege-20-piores-contratacoes-da-premier-league-brasileiros-estao-na-lista/)
+
+## Blog
+- [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Como fazer sua página ser citada por IA: 6 ajustes de estrutura](https://alexandreleite-mkt.vercel.app/blog/como-ser-citado-por-ia-aeo.html): A IA cita a página que responde primeiro, não a mais longa. Veja 6 ajustes de estrutura (AEO) para seu conteúdo aparecer nas respostas de IA.
