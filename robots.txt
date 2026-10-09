@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexandreleite-mkt.vercel.app/sitemap.xml

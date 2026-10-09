@@ -355,3 +355,6 @@ details.more > summary { font-size: 1rem; color: var(--text-primary); justify-co
 .alt .photo-card { background: var(--bg-color); }
 .cert { background: var(--surface-color); }
 .alt .skill-tag { background: var(--bg-color); }
+
+.hero-role { text-wrap: balance; }
+@media (min-width: 960px) { .hero-role { max-width: 26ch; } }
