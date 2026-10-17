@@ -5,6 +5,9 @@ Uso, a partir da raiz do repositório:
     python3 tools/blog.py build        # regenera tudo a partir de blog/src/*.json
     python3 tools/blog.py check        # valida os arquivos-fonte sem escrever nada
 
+Artigos com "date" no futuro ficam agendados: não entram no site até o dia chegar.
+O workflow .github/workflows/publicar-blog.yml roda este script todo dia e publica.
+
 Cada artigo é um JSON em blog/src/<slug>.json com os campos:
     slug, title, seo_title (<=60), description (<=155), date (AAAA-MM-DD), category,
     quick_answer (40 a 60 palavras), body_html (h2/h3/p/ul/ol/table/blockquote),
@@ -288,12 +291,26 @@ def build(posts):
     write("index.html", h2)
 
 
+def hoje_brasil():
+    """Data de hoje no horário de Brasília (artigos com data futura ficam agendados)."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
+    except Exception:
+        return (datetime.datetime.utcnow() - datetime.timedelta(hours=3)).date().isoformat()
+
+
 if __name__ == "__main__":
-    posts = load()
-    probs = check(posts)
+    todos = load()
+    probs = check(todos)
     for x in probs:
         print("ATENÇÃO:", x)
     if len(sys.argv) > 1 and sys.argv[1] == "check":
         sys.exit(1 if probs else 0)
+    hoje = hoje_brasil()
+    posts = [p for p in todos if p["date"] <= hoje]
+    agendados = [p for p in todos if p["date"] > hoje]
     build(posts)
     print(f"{len(posts)} artigo(s) no blog.")
+    for p in sorted(agendados, key=lambda p: p["date"]):
+        print(f"agendado: {p['date']} · {p['slug']}")

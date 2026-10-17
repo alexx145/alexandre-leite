@@ -21,6 +21,12 @@ Site estático, sem banco de dados. Tudo é gerado por dois scripts Python (sem 
 - Cada artigo é uma página própria e leve (cerca de 17 KB, sem imagens além da foto do autor),
   então publicar todo dia não deixa a home nem o índice mais pesados. O índice pagina de 12 em 12.
 
+## Agendar artigos
+
+Artigo com `date` no futuro fica agendado: o `build` só publica artigos com data até hoje (horário de Brasília).
+O GitHub Actions (`.github/workflows/publicar-blog.yml`) roda o `build` todo dia às 8h05 e faz o commit
+sozinho quando um artigo agendado chega no dia. Também dá para rodar na mão em Actions > Publicar blog > Run workflow.
+
 ## Publicar
 
 Enviar os arquivos alterados (`git status --short`) para a branch `main`. O Vercel publica sozinho.
