@@ -1,0 +1,37 @@
+{
+ "slug": "como-reativar-clientes-inativos-crm",
+ "title": "Como reativar clientes inativos no CRM: régua de win-back em 5 passos",
+ "seo_title": "Como reativar clientes inativos no CRM: win-back em 5 passos",
+ "description": "Veja como montar uma régua de win-back para reativar clientes e leads inativos no CRM: segmentação, mensagem, canais, saída fácil e medição.",
+ "date": "2026-10-19",
+ "category": "CRM e automação",
+ "keywords": [
+  "reativar clientes inativos",
+  "win-back",
+  "régua de relacionamento",
+  "CRM",
+  "reativação de leads",
+  "retenção de clientes",
+  "LGPD"
+ ],
+ "quick_answer": "Para reativar clientes inativos no CRM, separe a base pelo tempo sem contato, escreva a primeira mensagem a partir do que a pessoa buscava, monte uma régua curta de três contatos em canais diferentes, ofereça descadastro em um clique e compare o resultado com um grupo que não recebeu a campanha.",
+ "body_html": "<p>Todo CRM guarda contatos que já demonstraram interesse e pararam de responder. Como o foco do mês costuma ser o lead novo, essa base fica parada. Uma régua de win-back bem feita transforma parte dela em conversa de novo, com custo de mídia perto de zero.</p>\n<p>Neste texto, mostro os cinco passos que uso para montar uma campanha de reativação.</p>\n\n<h2>O que é uma campanha de win-back?</h2>\n<p><strong>Win-back é a sequência de contatos feita para trazer de volta clientes ou leads que esfriaram.</strong> Ela vale para quem comprou e não voltou, para quem cancelou uma assinatura e para quem conversou com vendas e sumiu.</p>\n<p>A diferença para uma campanha comum é o ponto de partida. Você já sabe quem é a pessoa, o que ela procurou e onde a conversa parou. Isso permite uma mensagem muito mais específica do que qualquer anúncio.</p>\n\n<h2>Quais são os 5 passos de uma régua de reativação?</h2>\n<h3>1. Segmente pelo tempo sem contato</h3>\n<p>Quem esfriou há 30 dias ainda lembra da conversa. Quem sumiu há um ano provavelmente não. Separe pelo menos três grupos e trate cada um de um jeito.</p>\n<table>\n<thead><tr><th>Grupo</th><th>Situação</th><th>Abordagem</th></tr></thead>\n<tbody>\n<tr><td>Esfriando</td><td>Até 30 dias sem resposta</td><td>Retomar a conversa de onde parou</td></tr>\n<tr><td>Inativo</td><td>De 1 a 6 meses</td><td>Lembrar o motivo e mostrar o que mudou</td></tr>\n<tr><td>Perdido</td><td>Mais de 6 meses</td><td>Reapresentar a empresa, sem pressão</td></tr>\n</tbody>\n</table>\n<h3>2. Comece pelo motivo, não pela oferta</h3>\n<p>A primeira mensagem lembra o que a pessoa buscava. Desconto logo no primeiro contato ensina a base a esperar promoção e reduz a margem. Use a oferta mais tarde, para quem respondeu e ainda tem dúvida.</p>\n<h3>3. Use uma régua curta</h3>\n<p>Três contatos costumam bastar: um no primeiro dia, outro alguns dias depois por um canal diferente e um último contato com saída clara. Cada mensagem tem um único próximo passo fácil, como responder com um número ou escolher um horário.</p>\n<h3>4. Dê uma saída em um clique</h3>\n<p>Quem não quer mais receber precisa conseguir sair com facilidade. Além de ser uma questão de respeito, a LGPD exige base legal para o contato e o direito de oposição. Uma base limpa também melhora a entregabilidade dos próximos envios.</p>\n<h3>5. Meça contra um grupo de controle</h3>\n<p>Separe uma parte do segmento que não recebe a campanha. Depois de algumas semanas, compare quantos voltaram em cada grupo. Sem essa comparação, você não sabe se a reativação veio da campanha ou aconteceria de qualquer jeito.</p>\n\n<h2>Que mensagem usar no primeiro contato?</h2>\n<p><strong>A melhor primeira mensagem é curta, pessoal e termina com uma pergunta simples.</strong> Ela cita o interesse anterior e pergunta se ainda faz sentido conversar.</p>\n<blockquote>Oi, Ana. Em março você procurou um SUV para a família e a conversa parou por aqui. Chegaram três modelos nessa faixa nesta semana. Quer que eu mande as opções?</blockquote>\n<p>Repare que a mensagem não pede desculpa pelo sumiço nem empurra uma oferta. Ela retoma o assunto e deixa a resposta fácil.</p>\n\n<h2>Na prática: o que aprendi fazendo reativação</h2>\n<p>Numa revenda de veículos nos EUA, criei uma campanha de reativação de clientes inativos a partir da base do CRM, com segmentação e sequência de contato próprias. Antes, num SaaS por assinatura, atuei em ações de retenção, churn e win-back. Nos dois casos, o que mais fez diferença foi segmentar antes de disparar e manter a régua curta.</p>\n<p>O erro mais comum que vejo é tratar a base inteira com o mesmo e-mail. A pessoa que sumiu ontem e a que sumiu há dois anos recebem a mesma promoção, e as duas ignoram.</p>",
+ "faq": [
+  {
+   "q": "Quantas mensagens deve ter uma régua de win-back?",
+   "a": "Três contatos costumam bastar. Mais do que isso tende a aumentar descadastros sem trazer muitas respostas novas. Quem não respondeu à régua pode voltar para uma nutrição mais espaçada."
+  },
+  {
+   "q": "Devo oferecer desconto para reativar clientes?",
+   "a": "Não no primeiro contato. Comece lembrando o motivo do interesse e mostrando o que mudou. A oferta funciona melhor para quem respondeu e ainda está em dúvida."
+  },
+  {
+   "q": "Posso mandar mensagem para contatos antigos da base?",
+   "a": "Depende da base legal e do consentimento registrados no CRM. Envie só para quem autorizou o contato e ofereça descadastro em todas as mensagens, como pede a LGPD."
+  },
+  {
+   "q": "Como saber se a campanha de reativação funcionou?",
+   "a": "Compare o grupo que recebeu a régua com um grupo de controle que não recebeu. A diferença entre os dois mostra o que a campanha gerou de fato."
+  }
+ ]
+}

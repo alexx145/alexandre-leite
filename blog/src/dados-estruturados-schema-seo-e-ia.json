@@ -1,0 +1,37 @@
+{
+ "slug": "dados-estruturados-schema-seo-e-ia",
+ "title": "Dados estruturados para SEO e IA: o que marcar primeiro no seu site",
+ "seo_title": "Dados estruturados (schema) para SEO e IA: por onde começar",
+ "description": "Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.",
+ "date": "2026-10-21",
+ "category": "SEO e IA",
+ "keywords": [
+  "dados estruturados",
+  "schema markup",
+  "schema.org",
+  "SEO para IA",
+  "GEO",
+  "AEO",
+  "JSON-LD"
+ ],
+ "quick_answer": "Comece pelos dados estruturados que descrevem quem está por trás do site: Organization ou Person na página inicial, Article nos posts com autor e data, e BreadcrumbList na navegação. Use JSON-LD, marque só o que aparece na página e valide com as ferramentas do Google antes de publicar.",
+ "body_html": "<p>Dados estruturados são um bloco de código que descreve o conteúdo da página numa linguagem que buscadores e sistemas de IA entendem sem ambiguidade. Eles não colocam ninguém no topo sozinhos, mas reduzem a chance de o seu site ser mal interpretado.</p>\n<p>Neste texto, mostro por onde eu começo quando vou marcar um site.</p>\n\n<h2>O que são dados estruturados?</h2>\n<p><strong>Dados estruturados são informações sobre a página organizadas no vocabulário do Schema.org, normalmente em formato JSON-LD.</strong> Em vez de o buscador deduzir que um texto é um artigo, que um nome é o autor e que uma data é a de publicação, você declara isso de forma explícita.</p>\n<p>O formato JSON-LD fica num bloco de script separado do HTML visível. Isso facilita a manutenção, porque você não precisa mexer no layout para marcar o conteúdo.</p>\n\n<h2>Por que eles importam para buscas com IA?</h2>\n<p><strong>Respostas geradas por IA dependem de entender entidades: quem é a empresa, quem escreveu, sobre o que é a página.</strong> Dados estruturados deixam essas relações claras e consistentes entre as páginas do site.</p>\n<p>Eles não garantem citação em ferramentas como Google AI Overviews, ChatGPT ou Perplexity. O que entra numa resposta continua dependendo do conteúdo ser útil, direto e confiável. A marcação ajuda a máquina a ligar esse conteúdo à pessoa ou empresa certa.</p>\n\n<h2>O que marcar primeiro?</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Onde usar</th><th>O que declara</th></tr></thead>\n<tbody>\n<tr><td>Organization ou Person</td><td>Página inicial</td><td>Nome, logo ou foto, site, perfis oficiais (sameAs)</td></tr>\n<tr><td>Article ou BlogPosting</td><td>Cada post</td><td>Título, autor, data de publicação e de atualização</td></tr>\n<tr><td>BreadcrumbList</td><td>Páginas internas</td><td>Onde a página fica na estrutura do site</td></tr>\n<tr><td>Product ou Service</td><td>Páginas comerciais</td><td>O que é vendido e por quem</td></tr>\n<tr><td>LocalBusiness</td><td>Negócio com endereço físico</td><td>Endereço, horário, área atendida</td></tr>\n</tbody>\n</table>\n<h3>Comece pela entidade principal</h3>\n<p>Organization ou Person na home é a base de tudo. O campo sameAs liga o site aos perfis oficiais, como LinkedIn e Instagram, e ajuda a separar você de homônimos.</p>\n<h3>Depois, autor e data em cada artigo</h3>\n<p>Autor identificado e data de atualização são sinais simples de confiança. Ligue o autor do artigo à mesma entidade Person da home, para que tudo aponte para a mesma pessoa.</p>\n\n<h2>Quais erros evitar?</h2>\n<ul>\n<li><strong>Marcar o que não aparece na página.</strong> Avaliações, preços ou perguntas que o visitante não vê podem ser tratados como spam.</li>\n<li><strong>Informações diferentes entre páginas.</strong> Nome da empresa escrito de três jeitos confunde mais do que ajuda.</li>\n<li><strong>Esperar resultado visual garantido.</strong> O Google decide quando mostrar resultados enriquecidos e já restringiu alguns tipos, como os de FAQ, a poucos sites.</li>\n<li><strong>Publicar sem validar.</strong> Um erro de sintaxe faz o bloco inteiro ser ignorado.</li>\n</ul>\n\n<h2>Quanto tempo leva para ver efeito?</h2>\n<p><strong>O buscador precisa rastrear a página de novo para ler a marcação, o que pode levar de dias a algumas semanas.</strong> Por isso, não faz sentido avaliar o resultado no dia seguinte.</p>\n<p>Os sinais mais práticos de acompanhar são três: a marcação aparece sem erros no Search Console, as páginas importantes estão indexadas e a forma como o site é descrito nas buscas e nas respostas de IA fica mais precisa com o tempo. Se uma IA descreve sua empresa com o nome errado ou com um serviço que você não oferece, revise a entidade principal e os perfis ligados a ela.</p>\n\n<h2>Como validar a marcação?</h2>\n<p><strong>Teste cada tipo de página no Teste de pesquisa avançada (Rich Results Test) do Google e no validador do Schema.org antes de publicar.</strong> Depois, acompanhe os relatórios de melhorias no Google Search Console para ver erros que surgirem com o tempo.</p>\n<p>No meu portfólio, cada página tem a entidade Person ligada aos perfis oficiais, e cada artigo do blog declara autor, datas, a trilha de navegação e as perguntas frequentes. É um trabalho feito uma vez no modelo do site e que vale para todas as páginas novas.</p>",
+ "faq": [
+  {
+   "q": "Dados estruturados melhoram o ranqueamento?",
+   "a": "Não diretamente. Eles ajudam o buscador a entender a página e podem habilitar resultados enriquecidos, o que tende a melhorar a taxa de cliques. O ranqueamento continua dependendo do conteúdo e da autoridade do site."
+  },
+  {
+   "q": "Qual formato de dados estruturados usar?",
+   "a": "JSON-LD é o formato recomendado pelo Google e o mais simples de manter, porque fica separado do HTML visível da página."
+  },
+  {
+   "q": "Schema ajuda a aparecer no ChatGPT e no AI Overviews?",
+   "a": "Ajuda a máquina a entender quem é o autor e sobre o que é a página, mas não garante citação. Conteúdo direto, útil e confiável continua sendo o fator principal."
+  },
+  {
+   "q": "Como saber se o schema está funcionando?",
+   "a": "Valide cada modelo de página nas ferramentas do Google e do Schema.org e acompanhe os relatórios de melhorias no Google Search Console."
+  }
+ ]
+}

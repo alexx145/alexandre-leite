@@ -1,0 +1,37 @@
+{
+ "slug": "segmentacao-de-base-no-crm-ciclo-de-vida",
+ "title": "Segmentação de base no CRM: como dividir clientes por ciclo de vida",
+ "seo_title": "Segmentação de base no CRM por ciclo de vida do cliente",
+ "description": "Segmentar só por dado cadastral gera mensagem genérica. Veja como dividir a base do CRM por ciclo de vida e o que comunicar em cada etapa.",
+ "date": "2026-10-22",
+ "category": "CRM e automação",
+ "keywords": [
+  "segmentação de base",
+  "segmentação no CRM",
+  "ciclo de vida do cliente",
+  "lifecycle marketing",
+  "régua de relacionamento",
+  "retenção",
+  "onboarding"
+ ],
+ "quick_answer": "Segmentar a base por ciclo de vida é agrupar contatos pelo momento da relação com a empresa, como novo, ativo, em risco, inativo e perdido, e não só por dados cadastrais. Cada etapa recebe um objetivo e uma régua própria: ensinar no começo, gerar valor no meio e reativar quem esfriou.",
+ "body_html": "<p>Muita base de CRM é segmentada por cidade, cargo ou faixa de preço. Esses dados ajudam, mas dizem pouco sobre o que a pessoa precisa ouvir agora. Um cliente que comprou ontem e outro que não aparece há seis meses podem ter o mesmo perfil e precisar de mensagens opostas.</p>\n<p>Neste texto, mostro como eu organizo a base pelo ciclo de vida e o que entra em cada etapa.</p>\n\n<h2>O que é segmentação por ciclo de vida?</h2>\n<p><strong>É dividir a base pelo momento da relação com a empresa, usando comportamento: data da última compra, uso do produto, abertura de mensagens e atrasos.</strong> O dado cadastral continua útil para personalizar, mas é o momento que define o objetivo da comunicação.</p>\n\n<h2>Quais são as etapas e o que comunicar em cada uma?</h2>\n<table>\n<thead><tr><th>Etapa</th><th>Sinal no CRM</th><th>Objetivo</th><th>Exemplo de ação</th></tr></thead>\n<tbody>\n<tr><td>Novo</td><td>Primeira compra ou adesão recente</td><td>Ensinar a usar e confirmar a escolha</td><td>Boas-vindas e onboarding nos primeiros 90 dias</td></tr>\n<tr><td>Ativo</td><td>Compra ou uso frequente</td><td>Gerar mais valor</td><td>Conteúdo útil, benefícios, upgrade na hora certa</td></tr>\n<tr><td>Em risco</td><td>Queda de uso, primeiro atraso, sem abrir mensagens</td><td>Evitar a saída</td><td>Régua preventiva com reconhecimento, não promoção</td></tr>\n<tr><td>Inativo</td><td>Meses sem compra ou uso</td><td>Retomar a conversa</td><td>Win-back curto, começando pelo motivo do interesse</td></tr>\n<tr><td>Perdido</td><td>Cancelou ou pediu para sair</td><td>Respeitar e aprender</td><td>Pesquisa de saída e, se autorizado, contato futuro espaçado</td></tr>\n</tbody>\n</table>\n\n<h2>Como definir os critérios de cada etapa?</h2>\n<p><strong>Use regras que qualquer pessoa do time consiga aplicar do mesmo jeito e que o CRM consiga calcular sozinho.</strong> \"Cliente desengajado\" é vago. \"Sem compra nos últimos 90 dias e sem abrir e-mail nos últimos 60\" é aplicável.</p>\n<ul>\n<li><strong>Escolha poucos sinais.</strong> Recência, frequência e um indicador de uso costumam bastar para começar.</li>\n<li><strong>Ajuste ao ciclo do produto.</strong> Em assinatura mensal, 30 dias sem uso já é alerta. Em compra de carro, o intervalo é de anos.</li>\n<li><strong>Deixe a migração automática.</strong> O contato muda de etapa sozinho quando o comportamento muda, e entra na régua certa.</li>\n</ul>\n\n<h2>Como começar com a base que você já tem?</h2>\n<ol>\n<li><strong>Exporte a base com três colunas:</strong> data da última compra ou uso, quantidade de compras e data da última interação com mensagens.</li>\n<li><strong>Classifique cada contato numa etapa</strong> usando as regras que você escreveu. Uma planilha resolve no primeiro momento.</li>\n<li><strong>Escolha uma etapa para começar.</strong> Em geral, os contatos em risco dão o retorno mais rápido, porque ainda lembram da empresa.</li>\n<li><strong>Monte uma régua curta para essa etapa</strong> e meça contra um grupo de controle antes de expandir para as outras.</li>\n</ol>\n\n<h2>Que erros evitar?</h2>\n<ul>\n<li><strong>Criar segmentos demais.</strong> Dez segmentos sem régua própria viram só filtros. Comece com cinco e uma ação clara para cada.</li>\n<li><strong>Mandar promoção para quem está em risco.</strong> Para quem está se afastando, reconhecimento e utilidade costumam funcionar melhor do que desconto.</li>\n<li><strong>Esquecer o consentimento.</strong> Segmentar não muda as regras da LGPD. Cada contato precisa de base legal e de uma saída fácil.</li>\n<li><strong>Não medir por etapa.</strong> Acompanhe quantos contatos passam de uma etapa para outra a cada mês. É esse fluxo que mostra se a estratégia funciona.</li>\n</ul>\n\n<h2>Na prática: de onde vem essa visão</h2>\n<p>Num SaaS por assinatura, atuei em ações de retenção, redução de churn, reativação e win-back, com comunicação para cada etapa do ciclo de vida. Depois, numa revenda de veículos nos EUA, implantei o CRM como base central, estruturei a jornada do lead até a venda e montei réguas de e-mail e SMS segmentadas, com fluxos de reativação para quem esfriava. Nos dois modelos, a segmentação por momento foi o que permitiu mandar menos mensagens e mais relevantes.</p>",
+ "faq": [
+  {
+   "q": "Qual a diferença entre segmentação cadastral e por ciclo de vida?",
+   "a": "A cadastral agrupa por quem a pessoa é, como cidade ou cargo. A por ciclo de vida agrupa pelo momento da relação, como novo, ativo ou em risco. A segunda define o objetivo da mensagem, e a primeira ajuda a personalizar."
+  },
+  {
+   "q": "Quantos segmentos criar no CRM?",
+   "a": "Comece com cerca de cinco etapas, cada uma com um objetivo e uma régua própria. Crie segmentos novos só quando houver uma ação diferente para eles."
+  },
+  {
+   "q": "Que dados usar para segmentar por ciclo de vida?",
+   "a": "Recência da última compra ou uso, frequência e sinais de engajamento, como abertura de mensagens e atrasos de pagamento, costumam bastar para começar."
+  },
+  {
+   "q": "Segmentação por ciclo de vida serve para empresas pequenas?",
+   "a": "Sim. Mesmo uma planilha ou um CRM simples consegue separar novos, ativos e inativos pela data da última compra, e isso já melhora a relevância das mensagens."
+  }
+ ]
+}

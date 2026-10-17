@@ -1,0 +1,37 @@
+{
+ "slug": "como-medir-campanha-de-crm-grupo-de-controle",
+ "title": "Como medir se uma campanha de CRM funcionou: linha de base e grupo de controle",
+ "seo_title": "Como medir uma campanha de CRM com grupo de controle",
+ "description": "Taxa de abertura não prova resultado. Veja como usar linha de base, grupo de controle e prazo definido para medir o efeito real de uma campanha de CRM.",
+ "date": "2026-10-20",
+ "category": "CRM e automação",
+ "keywords": [
+  "medir campanha de CRM",
+  "grupo de controle",
+  "linha de base",
+  "incrementalidade",
+  "métricas de CRM",
+  "retenção",
+  "churn"
+ ],
+ "quick_answer": "Para medir uma campanha de CRM, registre o número de antes (linha de base), separe aleatoriamente um grupo de controle que não recebe a ação, defina o prazo de análise e compare o resultado dos dois grupos no fim. A diferença entre eles mostra o efeito real da campanha, e não só quem abriu o e-mail.",
+ "body_html": "<p>Relatório de CRM costuma mostrar taxa de abertura, cliques e vendas dos contatos que receberam a campanha. O problema é que parte dessas pessoas compraria de qualquer jeito. Sem um ponto de comparação, a campanha leva o crédito por algo que não gerou.</p>\n<p>Neste texto, explico as três peças que uso para saber se uma ação de CRM funcionou de verdade.</p>\n\n<h2>Por que taxa de abertura não prova resultado?</h2>\n<p><strong>Abertura e clique medem atenção, não mudança de comportamento.</strong> Um cliente fiel abre todos os e-mails e compra todo mês. Se ele recebeu a campanha, a venda entra na conta dela, mesmo que a campanha não tenha mudado nada.</p>\n<p>O que interessa ao negócio é a diferença: quantas pessoas a mais compraram, renovaram ou voltaram por causa da ação. Esse número tem nome técnico, incrementalidade, e só aparece quando existe comparação.</p>\n\n<h2>Quais são as 3 peças de uma medição confiável?</h2>\n<h3>1. Linha de base</h3>\n<p>Antes de disparar, anote o número atual do indicador que a campanha quer mudar. Se o objetivo é reduzir cancelamentos, registre o churn do segmento nos meses anteriores. Sem o número de antes, não existe o que comparar depois.</p>\n<h3>2. Grupo de controle</h3>\n<p>Separe por sorteio uma parte do segmento que não recebe a ação. Os dois grupos precisam ser parecidos, por isso o sorteio é melhor do que escolher a dedo. Em bases pequenas, um controle de 10% a 20% costuma dar uma leitura útil.</p>\n<h3>3. Prazo definido</h3>\n<p>Decida antes quando vai olhar o resultado: 30, 60 ou 90 dias, conforme o ciclo do produto. Olhar todo dia e parar quando o número parece bom leva a conclusões erradas.</p>\n\n<h2>Como ler o resultado?</h2>\n<p><strong>Compare a taxa do grupo que recebeu com a do grupo de controle no mesmo período.</strong> A diferença entre as duas é o efeito da campanha.</p>\n<table>\n<thead><tr><th>Grupo</th><th>Contatos</th><th>Voltaram a comprar</th><th>Taxa</th></tr></thead>\n<tbody>\n<tr><td>Recebeu a régua</td><td>900</td><td>81</td><td>9%</td></tr>\n<tr><td>Controle</td><td>100</td><td>5</td><td>5%</td></tr>\n</tbody>\n</table>\n<p>No exemplo acima, que é ilustrativo, a campanha gerou 4 pontos percentuais a mais. Sem o controle, o relatório diria que ela trouxe 81 clientes de volta, quando parte deles voltaria sozinha.</p>\n\n<h2>Quais erros mais atrapalham a medição?</h2>\n<ul>\n<li><strong>Escolher o controle a dedo.</strong> Se você deixa de fora só os clientes mais fiéis, a comparação já nasce torta. Use sorteio.</li>\n<li><strong>Mudar a campanha no meio do teste.</strong> Trocar mensagem, público e oferta ao mesmo tempo impede saber o que causou a diferença.</li>\n<li><strong>Contaminar o controle.</strong> Se o grupo de controle recebe a mesma oferta por outro canal, ele deixa de ser controle.</li>\n<li><strong>Medir só a venda imediata.</strong> Em retenção, o efeito pode aparecer só na renovação seguinte. Defina o prazo de acordo com o ciclo do produto.</li>\n</ul>\n\n<h2>O que fazer com o resultado?</h2>\n<p>A medição termina numa decisão. Se a diferença é consistente, a ação vai para a base toda. Se é pequena, ajuste a mensagem ou o segmento antes de descartar o formato. Se o grupo que recebeu foi pior que o controle, pare a campanha: ela está incomodando mais do que ajudando.</p>\n<p>Também vale olhar efeitos colaterais, como descadastros e reclamações. Uma campanha que reativa 4% e faz 10% da base pedir para sair não compensa.</p>\n\n<h2>Na prática: como uso isso no dia a dia</h2>\n<p>Quando trabalhei numa revenda de veículos nos EUA, eu cruzava os dados do CRM e das plataformas de anúncio em SQL e acompanhava o funil num painel semanal no Power BI. Ter o número de antes e o recorte por canal foi o que permitiu decidir, com dados, onde colocar a verba. A mesma lógica vale para qualquer ação de relacionamento: antes de executar, eu defino qual indicador vai dizer se funcionou, qual é a linha de base e em quanto tempo espero ver o resultado.</p>",
+ "faq": [
+  {
+   "q": "O que é grupo de controle em marketing?",
+   "a": "É uma parte do público, escolhida por sorteio, que não recebe a ação. Comparar esse grupo com quem recebeu mostra o efeito real da campanha."
+  },
+  {
+   "q": "Qual o tamanho ideal do grupo de controle?",
+   "a": "Depende do tamanho da base. Em bases pequenas, de 10% a 20% do segmento costuma bastar para uma leitura útil. Em bases grandes, uma fatia menor já é suficiente."
+  },
+  {
+   "q": "Deixar clientes sem a campanha não é perder vendas?",
+   "a": "É um custo pequeno e temporário. Em troca, você descobre quais ações funcionam e para de investir nas que não funcionam, o que vale mais no longo prazo."
+  },
+  {
+   "q": "Que indicadores acompanhar numa campanha de retenção?",
+   "a": "O principal é o churn do segmento comparado ao controle. Junto dele, acompanhe receita retida, descadastros e reclamações, para não trocar retenção por desgaste da base."
+  }
+ ]
+}
