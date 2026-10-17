@@ -10,7 +10,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 - [Portafolio (español)](https://alexandreleite-mkt.vercel.app/index-es.html)
 
 ## Resultados
-- +20% conversão de lead em venda — Meta Wholesale · Mídia paga, CRO e IA. Conversão de lead em venda 20% maior, com relatório semanal de CAC, CPL e vendas por canal para os sócios.
+- +20% conversão de lead em venda — Meta Wholesale · CRM, mídia paga e IA. Conversão de lead em venda 20% maior, com relatório semanal de CAC, CPL e vendas por canal para os sócios.
 - +30% posicionamento orgânico — Saipos · SEO e conteúdo para SaaS B2B. Posicionamento orgânico do site 30% melhor.
 - +30% captação de novos clientes — Ozen · Projetos freelance. Captação de novos clientes 30% maior, combinando SEO, mídia paga e um novo site.
 - 250+ matérias assinadas — Rádio Itatiaia · Eleições 2026. Mais de 250 matérias publicadas e um manual editorial (hierarquia de fontes, checagem de dados, links internos para SEO) adotado pela equipe.
@@ -30,7 +30,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 - Mídia paga: Meta Ads, Google Ads, Tráfego pago, Testes A/B, Testes de criativo
 - SEO e conteúdo: SEO técnico, SEO on-page, Pesquisa de palavras-chave, Arquitetura de conteúdo, GEO/AEO (buscas com IA), Copywriting, Inbound marketing, SEMrush, WordPress
 - Conversão e dados: CRO, Landing pages, GA4, Google Search Console, CAC e CPL, Métricas de atribuição, Dashboards, SQL, Power BI, Excel
-- CRM e automação: HubSpot, Salesforce, E-mail marketing, Réguas de follow-up, Lead scoring, n8n, IA conversacional, Engenharia de prompt, Asana
+- CRM e automação: ActiveCampaign, Kommo, VinSolutions, DealerCenter, Mailchimp, Segmentação de base, Réguas de relacionamento (e-mail, SMS, WhatsApp), Reativação e win-back, Retenção e churn, Lead scoring, LGPD, n8n, IA conversacional, Engenharia de prompt
 - Jornalismo: Reportagem, Checagem de dados, Cobertura eleitoral, Jornalismo esportivo, Rádio e podcast, Edição de texto
 - Idiomas: Português (nativo), Inglês (fluente), Espanhol (fluente)
 
