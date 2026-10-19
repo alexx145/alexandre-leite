@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Como reativar clientes inativos no CRM: régua de win-back em 5 passos](https://alexandreleite-mkt.vercel.app/blog/como-reativar-clientes-inativos-crm.html): Veja como montar uma régua de win-back para reativar clientes e leads inativos no CRM: segmentação, mensagem, canais, saída fácil e medição.
 - [Estrutura de campanhas no Meta Ads: quando consolidar dá mais resultado](https://alexandreleite-mkt.vercel.app/blog/estrutura-de-campanhas-meta-ads.html): Muitas campanhas pequenas dividem a verba e atrasam o aprendizado do algoritmo. Veja como organizar a conta do Meta Ads pelo que muda a mensagem.
 - [Conteúdo de fundo de funil: como transformar as perguntas de vendas em páginas que ajudam a vender](https://alexandreleite-mkt.vercel.app/blog/conteudo-fundo-de-funil-perguntas-de-vendas.html): Veja como levantar as perguntas que o time de vendas responde toda semana e transformar cada uma em uma página de fundo de funil que ajuda a fechar.
 - [Marketing de uma pessoa só: como priorizar e o que reportar](https://alexandreleite-mkt.vercel.app/blog/marketing-de-uma-pessoa-so-como-priorizar.html): Único profissional de marketing da empresa? Veja um método simples: uma meta por trimestre, três apostas, lista de 'agora não' e reporte em uma página.
