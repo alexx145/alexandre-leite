@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Dados estruturados para SEO e IA: o que marcar primeiro no seu site](https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html): Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.
 - [Como medir se uma campanha de CRM funcionou: linha de base e grupo de controle](https://alexandreleite-mkt.vercel.app/blog/como-medir-campanha-de-crm-grupo-de-controle.html): Taxa de abertura não prova resultado. Veja como usar linha de base, grupo de controle e prazo definido para medir o efeito real de uma campanha de CRM.
 - [Como reativar clientes inativos no CRM: régua de win-back em 5 passos](https://alexandreleite-mkt.vercel.app/blog/como-reativar-clientes-inativos-crm.html): Veja como montar uma régua de win-back para reativar clientes e leads inativos no CRM: segmentação, mensagem, canais, saída fácil e medição.
 - [Estrutura de campanhas no Meta Ads: quando consolidar dá mais resultado](https://alexandreleite-mkt.vercel.app/blog/estrutura-de-campanhas-meta-ads.html): Muitas campanhas pequenas dividem a verba e atrasam o aprendizado do algoritmo. Veja como organizar a conta do Meta Ads pelo que muda a mensagem.

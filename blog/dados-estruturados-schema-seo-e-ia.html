@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados estruturados (schema) para SEO e IA: por onde começar</title>
+    <meta name="description" content="Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.">
+    <meta name="author" content="Alexandre Leite">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#004488">
+    <link rel="canonical" href="https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html">
+    <link rel="alternate" type="application/rss+xml" title="Blog de Alexandre Leite" href="https://alexandreleite-mkt.vercel.app/blog/feed.xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Dados estruturados (schema) para SEO e IA: por onde começar">
+    <meta property="og:description" content="Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.">
+    <meta property="og:url" content="https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html">
+    <meta property="og:image" content="https://alexandreleite-mkt.vercel.app/assets/profile.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Alexandre Leite">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23004488'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "@id": "https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html#article", "headline": "Dados estruturados para SEO e IA: o que marcar primeiro no seu site", "description": "Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.", "url": "https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html", "mainEntityOfPage": "https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html", "datePublished": "2026-10-21", "dateModified": "2026-10-21", "inLanguage": "pt-BR", "wordCount": 679, "articleSection": "SEO e IA", "keywords": "dados estruturados, schema markup, schema.org, SEO para IA, GEO, AEO, JSON-LD", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "author": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "publisher": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "isPartOf": {"@type": "Blog", "@id": "https://alexandreleite-mkt.vercel.app/blog/#blog", "name": "Blog de Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/blog/"}}, {"@type": "Person", "@id": "https://alexandreleite-mkt.vercel.app/#person", "name": "Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "jobTitle": "Profissional de Marketing Digital e Jornalista", "sameAs": ["https://www.linkedin.com/in/alexandreleitemkt/", "https://www.instagram.com/alexandreleite_mkt/", "https://www.itatiaia.com.br/autor/alexandre-leite/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Portfólio", "item": "https://alexandreleite-mkt.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://alexandreleite-mkt.vercel.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Dados estruturados para SEO e IA: o que marcar primeiro no seu site", "item": "https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html"}]}, {"@type": "FAQPage", "@id": "https://alexandreleite-mkt.vercel.app/blog/dados-estruturados-schema-seo-e-ia.html#faq", "mainEntity": [{"@type": "Question", "name": "Dados estruturados melhoram o ranqueamento?", "acceptedAnswer": {"@type": "Answer", "text": "Não diretamente. Eles ajudam o buscador a entender a página e podem habilitar resultados enriquecidos, o que tende a melhorar a taxa de cliques. O ranqueamento continua dependendo do conteúdo e da autoridade do site."}}, {"@type": "Question", "name": "Qual formato de dados estruturados usar?", "acceptedAnswer": {"@type": "Answer", "text": "JSON-LD é o formato recomendado pelo Google e o mais simples de manter, porque fica separado do HTML visível da página."}}, {"@type": "Question", "name": "Schema ajuda a aparecer no ChatGPT e no AI Overviews?", "acceptedAnswer": {"@type": "Answer", "text": "Ajuda a máquina a entender quem é o autor e sobre o que é a página, mas não garante citação. Conteúdo direto, útil e confiável continua sendo o fator principal."}}, {"@type": "Question", "name": "Como saber se o schema está funcionando?", "acceptedAnswer": {"@type": "Answer", "text": "Valide cada modelo de página nas ferramentas do Google e do Schema.org e acompanhe os relatórios de melhorias no Google Search Console."}}]}]}</script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <header class="navbar">
+        <div class="wrap nav-row">
+            <a href="../" class="brand">Alexandre Leite</a>
+            <nav aria-label="Navegação">
+                <a href="../">Portfólio</a>
+                <a href="./">Blog</a>
+                <a href="../#contato" class="nav-cta">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="wrap post">
+            <nav class="crumbs" aria-label="Você está em"><a href="../">Portfólio</a> › <a href="./">Blog</a> › <span>SEO e IA</span></nav>
+            <span class="tag c-blue">SEO e IA</span>
+            <h1>Dados estruturados para SEO e IA: o que marcar primeiro no seu site</h1>
+            <div class="byline">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="44" height="44">
+                <p><a href="../" rel="author">Alexandre Leite</a><span><time datetime="2026-10-21">21 de outubro de 2026</time> · 3 min de leitura</span></p>
+            </div>
+            <aside class="quick" aria-label="Resposta rápida">
+                <strong>Resposta rápida</strong>
+                <p>Comece pelos dados estruturados que descrevem quem está por trás do site: Organization ou Person na página inicial, Article nos posts com autor e data, e BreadcrumbList na navegação. Use JSON-LD, marque só o que aparece na página e valide com as ferramentas do Google antes de publicar.</p>
+            </aside>
+            <nav class="toc" aria-label="Neste artigo">
+                <strong>Neste artigo</strong>
+                <ol>
+                    <li><a href="#o-que-sao-dados-estruturados">O que são dados estruturados?</a></li>
+                    <li><a href="#por-que-eles-importam-para-buscas-com-ia">Por que eles importam para buscas com IA?</a></li>
+                    <li><a href="#o-que-marcar-primeiro">O que marcar primeiro?</a></li>
+                    <li><a href="#quais-erros-evitar">Quais erros evitar?</a></li>
+                    <li><a href="#quanto-tempo-leva-para-ver-efeito">Quanto tempo leva para ver efeito?</a></li>
+                    <li><a href="#como-validar-a-marcacao">Como validar a marcação?</a></li>
+                    <li><a href="#perguntas-frequentes">Perguntas frequentes</a></li>
+                </ol>
+            </nav>
+            <div class="prose">
+<p>Dados estruturados são um bloco de código que descreve o conteúdo da página numa linguagem que buscadores e sistemas de IA entendem sem ambiguidade. Eles não colocam ninguém no topo sozinhos, mas reduzem a chance de o seu site ser mal interpretado.</p>
+<p>Neste texto, mostro por onde eu começo quando vou marcar um site.</p>
+
+<h2 id="o-que-sao-dados-estruturados">O que são dados estruturados?</h2>
+<p><strong>Dados estruturados são informações sobre a página organizadas no vocabulário do Schema.org, normalmente em formato JSON-LD.</strong> Em vez de o buscador deduzir que um texto é um artigo, que um nome é o autor e que uma data é a de publicação, você declara isso de forma explícita.</p>
+<p>O formato JSON-LD fica num bloco de script separado do HTML visível. Isso facilita a manutenção, porque você não precisa mexer no layout para marcar o conteúdo.</p>
+
+<h2 id="por-que-eles-importam-para-buscas-com-ia">Por que eles importam para buscas com IA?</h2>
+<p><strong>Respostas geradas por IA dependem de entender entidades: quem é a empresa, quem escreveu, sobre o que é a página.</strong> Dados estruturados deixam essas relações claras e consistentes entre as páginas do site.</p>
+<p>Eles não garantem citação em ferramentas como Google AI Overviews, ChatGPT ou Perplexity. O que entra numa resposta continua dependendo do conteúdo ser útil, direto e confiável. A marcação ajuda a máquina a ligar esse conteúdo à pessoa ou empresa certa.</p>
+
+<h2 id="o-que-marcar-primeiro">O que marcar primeiro?</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Tipo</th><th>Onde usar</th><th>O que declara</th></tr></thead>
+<tbody>
+<tr><td>Organization ou Person</td><td>Página inicial</td><td>Nome, logo ou foto, site, perfis oficiais (sameAs)</td></tr>
+<tr><td>Article ou BlogPosting</td><td>Cada post</td><td>Título, autor, data de publicação e de atualização</td></tr>
+<tr><td>BreadcrumbList</td><td>Páginas internas</td><td>Onde a página fica na estrutura do site</td></tr>
+<tr><td>Product ou Service</td><td>Páginas comerciais</td><td>O que é vendido e por quem</td></tr>
+<tr><td>LocalBusiness</td><td>Negócio com endereço físico</td><td>Endereço, horário, área atendida</td></tr>
+</tbody>
+</table></div>
+<h3>Comece pela entidade principal</h3>
+<p>Organization ou Person na home é a base de tudo. O campo sameAs liga o site aos perfis oficiais, como LinkedIn e Instagram, e ajuda a separar você de homônimos.</p>
+<h3>Depois, autor e data em cada artigo</h3>
+<p>Autor identificado e data de atualização são sinais simples de confiança. Ligue o autor do artigo à mesma entidade Person da home, para que tudo aponte para a mesma pessoa.</p>
+
+<h2 id="quais-erros-evitar">Quais erros evitar?</h2>
+<ul>
+<li><strong>Marcar o que não aparece na página.</strong> Avaliações, preços ou perguntas que o visitante não vê podem ser tratados como spam.</li>
+<li><strong>Informações diferentes entre páginas.</strong> Nome da empresa escrito de três jeitos confunde mais do que ajuda.</li>
+<li><strong>Esperar resultado visual garantido.</strong> O Google decide quando mostrar resultados enriquecidos e já restringiu alguns tipos, como os de FAQ, a poucos sites.</li>
+<li><strong>Publicar sem validar.</strong> Um erro de sintaxe faz o bloco inteiro ser ignorado.</li>
+</ul>
+
+<h2 id="quanto-tempo-leva-para-ver-efeito">Quanto tempo leva para ver efeito?</h2>
+<p><strong>O buscador precisa rastrear a página de novo para ler a marcação, o que pode levar de dias a algumas semanas.</strong> Por isso, não faz sentido avaliar o resultado no dia seguinte.</p>
+<p>Os sinais mais práticos de acompanhar são três: a marcação aparece sem erros no Search Console, as páginas importantes estão indexadas e a forma como o site é descrito nas buscas e nas respostas de IA fica mais precisa com o tempo. Se uma IA descreve sua empresa com o nome errado ou com um serviço que você não oferece, revise a entidade principal e os perfis ligados a ela.</p>
+
+<h2 id="como-validar-a-marcacao">Como validar a marcação?</h2>
+<p><strong>Teste cada tipo de página no Teste de pesquisa avançada (Rich Results Test) do Google e no validador do Schema.org antes de publicar.</strong> Depois, acompanhe os relatórios de melhorias no Google Search Console para ver erros que surgirem com o tempo.</p>
+<p>No meu portfólio, cada página tem a entidade Person ligada aos perfis oficiais, e cada artigo do blog declara autor, datas, a trilha de navegação e as perguntas frequentes. É um trabalho feito uma vez no modelo do site e que vale para todas as páginas novas.</p>
+                <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+                <h3>Dados estruturados melhoram o ranqueamento?</h3>
+                <p>Não diretamente. Eles ajudam o buscador a entender a página e podem habilitar resultados enriquecidos, o que tende a melhorar a taxa de cliques. O ranqueamento continua dependendo do conteúdo e da autoridade do site.</p>
+                <h3>Qual formato de dados estruturados usar?</h3>
+                <p>JSON-LD é o formato recomendado pelo Google e o mais simples de manter, porque fica separado do HTML visível da página.</p>
+                <h3>Schema ajuda a aparecer no ChatGPT e no AI Overviews?</h3>
+                <p>Ajuda a máquina a entender quem é o autor e sobre o que é a página, mas não garante citação. Conteúdo direto, útil e confiável continua sendo o fator principal.</p>
+                <h3>Como saber se o schema está funcionando?</h3>
+                <p>Valide cada modelo de página nas ferramentas do Google e do Schema.org e acompanhe os relatórios de melhorias no Google Search Console.</p>
+            </div>
+            <aside class="author">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="72" height="72" loading="lazy">
+                <div>
+                    <strong>Alexandre Leite</strong>
+                    <p>Profissional de marketing digital e jornalista em Contagem (MG). Trabalha com SEO, mídia paga, CRM e conteúdo há mais de 5 anos e cobre as Eleições 2026 para a Rádio Itatiaia.</p>
+                    <p class="author-links"><a href="../#resultados">Ver resultados</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../#contato">Contato</a></p>
+                </div>
+            </aside>
+        </article>
+        <section class="wrap more">
+            <h2>Continue lendo</h2>
+            <div class="grid">
+                <a class="card" href="como-ser-citado-por-ia-aeo.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Como fazer sua página ser citada por IA: 6 ajustes de estrutura</strong><span>A IA cita a página que responde primeiro, não a mais longa. Veja 6 ajustes de estrutura (AEO) para seu conteúdo aparecer nas respostas de IA.</span><small><time datetime="2026-10-09">9 de outubro de 2026</time> · 5 min de leitura</small></span></a>
+                <a class="card" href="como-medir-campanha-de-crm-grupo-de-controle.html"><span class="card-top c-navy">CRM e automação</span><span class="card-body"><strong>Como medir se uma campanha de CRM funcionou: linha de base e grupo de controle</strong><span>Taxa de abertura não prova resultado. Veja como usar linha de base, grupo de controle e prazo definido para medir o efeito real de uma campanha de CRM.</span><small><time datetime="2026-10-20">20 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="como-reativar-clientes-inativos-crm.html"><span class="card-top c-navy">CRM e automação</span><span class="card-body"><strong>Como reativar clientes inativos no CRM: régua de win-back em 5 passos</strong><span>Veja como montar uma régua de win-back para reativar clientes e leads inativos no CRM: segmentação, mensagem, canais, saída fácil e medição.</span><small><time datetime="2026-10-19">19 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <p class="foot-title">Vamos conversar?</p>
+            <p>Estou aberto a oportunidades em marketing e jornalismo, remotas ou na região de Belo Horizonte.</p>
+            <p class="foot-links"><a href="../#contato">Contato</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../">Portfólio</a><a href="feed.xml">RSS</a></p>
+            <p class="foot-copy">&copy; 2026 Alexandre Leite · Contagem, MG</p>
+        </div>
+    </footer>
+</body>
+</html>
