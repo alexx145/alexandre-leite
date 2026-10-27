@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tráfego de IA no GA4: como separar ChatGPT e Perplexity</title>
+    <meta name="description" content="Passo a passo para criar um grupo de canais de assistentes de IA no GA4, o que entra nele, o que fica de fora e por que parte dessas visitas aparece como direto.">
+    <meta name="author" content="Alexandre Leite">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#004488">
+    <link rel="canonical" href="https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html">
+    <link rel="alternate" type="application/rss+xml" title="Blog de Alexandre Leite" href="https://alexandreleite-mkt.vercel.app/blog/feed.xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Tráfego de IA no GA4: como separar ChatGPT e Perplexity">
+    <meta property="og:description" content="Passo a passo para criar um grupo de canais de assistentes de IA no GA4, o que entra nele, o que fica de fora e por que parte dessas visitas aparece como direto.">
+    <meta property="og:url" content="https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html">
+    <meta property="og:image" content="https://alexandreleite-mkt.vercel.app/assets/profile.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Alexandre Leite">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23004488'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "@id": "https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html#article", "headline": "Tráfego de IA no GA4: como separar as visitas de ChatGPT, Perplexity e Gemini", "description": "Passo a passo para criar um grupo de canais de assistentes de IA no GA4, o que entra nele, o que fica de fora e por que parte dessas visitas aparece como direto.", "url": "https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html", "mainEntityOfPage": "https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html", "datePublished": "2026-10-27", "dateModified": "2026-10-27", "inLanguage": "pt-BR", "wordCount": 943, "articleSection": "SEO e IA", "keywords": "tráfego de IA no GA4, tráfego do ChatGPT no Google Analytics, grupo de canais personalizado GA4, Perplexity, SEO para IA, GEO, AEO", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "author": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "publisher": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "isPartOf": {"@type": "Blog", "@id": "https://alexandreleite-mkt.vercel.app/blog/#blog", "name": "Blog de Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/blog/"}}, {"@type": "Person", "@id": "https://alexandreleite-mkt.vercel.app/#person", "name": "Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "jobTitle": "Profissional de Marketing Digital e Jornalista", "sameAs": ["https://www.linkedin.com/in/alexandreleitemkt/", "https://www.instagram.com/alexandreleite_mkt/", "https://www.itatiaia.com.br/autor/alexandre-leite/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Portfólio", "item": "https://alexandreleite-mkt.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://alexandreleite-mkt.vercel.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Tráfego de IA no GA4: como separar as visitas de ChatGPT, Perplexity e Gemini", "item": "https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html"}]}, {"@type": "FAQPage", "@id": "https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html#faq", "mainEntity": [{"@type": "Question", "name": "Onde fica o tráfego do ChatGPT no Google Analytics 4?", "acceptedAnswer": {"@type": "Answer", "text": "Por padrão, no canal Referência, com origem chatgpt.com. Cliques sem referenciador, comuns em aplicativos, aparecem como Direto."}}, {"@type": "Question", "name": "Dá para medir os cliques das AI Overviews no GA4?", "acceptedAnswer": {"@type": "Answer", "text": "Não separadamente. Esses cliques chegam como busca orgânica do Google e ficam junto com o restante do orgânico."}}, {"@type": "Question", "name": "Por que o canal de IA precisa ficar acima de Referência?", "acceptedAnswer": {"@type": "Answer", "text": "Porque o GA4 atribui cada sessão ao primeiro canal cuja regra ela cumpre. Se Referência vier antes, ela fica com as visitas dos assistentes."}}, {"@type": "Question", "name": "Quais origens incluir na regra?", "acceptedAnswer": {"@type": "Answer", "text": "Comece pelas que já aparecem no seu relatório de aquisição, como chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com e claude.ai, e revise a lista periodicamente."}}]}]}</script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <header class="navbar">
+        <div class="wrap nav-row">
+            <a href="../" class="brand">Alexandre Leite</a>
+            <nav aria-label="Navegação">
+                <a href="../">Portfólio</a>
+                <a href="./">Blog</a>
+                <a href="../#contato" class="nav-cta">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="wrap post">
+            <nav class="crumbs" aria-label="Você está em"><a href="../">Portfólio</a> › <a href="./">Blog</a> › <span>SEO e IA</span></nav>
+            <span class="tag c-blue">SEO e IA</span>
+            <h1>Tráfego de IA no GA4: como separar as visitas de ChatGPT, Perplexity e Gemini</h1>
+            <div class="byline">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="44" height="44">
+                <p><a href="../" rel="author">Alexandre Leite</a><span><time datetime="2026-10-27">27 de outubro de 2026</time> · 5 min de leitura</span></p>
+            </div>
+            <aside class="quick" aria-label="Resposta rápida">
+                <strong>Resposta rápida</strong>
+                <p>Para separar o tráfego de IA no GA4, crie um grupo de canais personalizado (Administrador > Exibição de dados > Grupos de canais) com um canal "Assistentes de IA" cuja condição seja a origem corresponder a uma expressão regular com os domínios dos assistentes, como chatgpt.com, perplexity.ai e gemini.google.com. Coloque esse canal acima de Referência e salve. O número que aparece é um piso: cliques sem referenciador caem em Direto, e as visitas das AI Overviews continuam dentro da busca orgânica do Google.</p>
+            </aside>
+            <nav class="toc" aria-label="Neste artigo">
+                <strong>Neste artigo</strong>
+                <ol>
+                    <li><a href="#onde-o-trafego-de-ia-aparece-no-ga4-hoje">Onde o tráfego de IA aparece no GA4 hoje?</a></li>
+                    <li><a href="#como-criar-um-canal-de-assistentes-de-ia-no-ga4">Como criar um canal de assistentes de IA no GA4?</a></li>
+                    <li><a href="#o-que-esse-numero-nao-mostra">O que esse número não mostra?</a></li>
+                    <li><a href="#por-que-o-trafego-do-chatgpt-pode-cair-de-um-dia-para-o-outr">Por que o tráfego do ChatGPT pode cair de um dia para o outro no relatório?</a></li>
+                    <li><a href="#como-reportar-trafego-de-ia-para-a-lideranca">Como reportar tráfego de IA para a liderança?</a></li>
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#perguntas-frequentes">Perguntas frequentes</a></li>
+                </ol>
+            </nav>
+            <div class="prose">
+<p>Quem trabalha com SEO hoje ouve a mesma pergunta da liderança: quanto do nosso tráfego já vem de ChatGPT, Perplexity e outros assistentes? No relatório padrão do GA4, a resposta fica escondida dentro de Referência, misturada com qualquer site que tenha um link para você.</p>
+<p>Dá para resolver isso em poucos minutos com um grupo de canais personalizado. Abaixo está o passo a passo, a lista de origens que eu uso como ponto de partida e os limites desse número, que são tão importantes quanto ele.</p>
+
+<h2 id="onde-o-trafego-de-ia-aparece-no-ga4-hoje">Onde o tráfego de IA aparece no GA4 hoje?</h2>
+<p><strong>Por padrão, a maior parte cai em Referência, e uma parte cai em Direto.</strong> Quando alguém clica em um link dentro da resposta de um assistente, o navegador costuma informar o site de origem (o referenciador), e o GA4 classifica a sessão como referência de chatgpt.com, perplexity.ai e assim por diante.</p>
+<p>Para ver o que já existe na sua conta, abra Relatórios &gt; Aquisição &gt; Aquisição de tráfego, troque a dimensão principal para Origem/mídia da sessão e procure por esses domínios. Anote as origens exatas que aparecem: são elas que vão para a regra do novo canal.</p>
+
+<h2 id="como-criar-um-canal-de-assistentes-de-ia-no-ga4">Como criar um canal de assistentes de IA no GA4?</h2>
+<p>O caminho é Administrador &gt; Exibição de dados &gt; Grupos de canais &gt; Criar novo grupo de canais. O Google explica as regras de classificação na ajuda sobre <a href="https://support.google.com/analytics/answer/9756891?hl=pt-BR" target="_blank" rel="noopener">grupos de canais padrão e personalizados</a>.</p>
+<ol>
+<li><strong>Parta do grupo padrão.</strong> O novo grupo já vem com os canais do GA4 (Busca orgânica, Referência, Direto etc.). Você só vai acrescentar um.</li>
+<li><strong>Adicione um canal novo.</strong> Dê um nome claro, como "Assistentes de IA".</li>
+<li><strong>Defina a condição.</strong> Dimensão Origem, tipo de correspondência "corresponde à regex" e uma expressão com os domínios, separados por barra vertical. Um ponto de partida: <code>chatgpt\.com|chat\.openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai</code>.</li>
+<li><strong>Coloque o canal acima de Referência.</strong> O GA4 atribui cada sessão ao primeiro canal cuja regra ela cumpre. Se Referência vier antes, ela fica com essas visitas. Use Reordenar, arraste o canal para cima e salve o grupo.</li>
+<li><strong>Use o grupo nos relatórios.</strong> No relatório de Aquisição de tráfego, troque a dimensão para o seu grupo personalizado. Ele também funciona em Explorações.</li>
+</ol>
+<p>Revise a lista de origens de tempos em tempos. Assistentes mudam de domínio e surgem novos, e uma regra esquecida passa a contar menos do que deveria.</p>
+
+<h2 id="o-que-esse-numero-nao-mostra">O que esse número não mostra?</h2>
+<p><strong>Ele mostra o mínimo, não o total.</strong> Três pontos ficam de fora:</p>
+<ul>
+<li><strong>Cliques sem referenciador.</strong> Aplicativos de celular e alguns navegadores não passam a origem. Essas sessões caem em Direto, sem nenhum sinal de que vieram de uma IA.</li>
+<li><strong>AI Overviews e Modo IA do Google.</strong> Os cliques vindos dos resumos de IA da busca chegam como busca orgânica do Google. Não existe, no GA4, uma forma de separá-los do resto do orgânico.</li>
+<li><strong>Quem leu a resposta e não clicou.</strong> Muitas vezes o assistente responde a dúvida e cita sua marca, mas a pessoa só visita o site depois, pesquisando o nome. Esse efeito aparece como aumento de busca pela marca e de tráfego direto, não como referência de IA.</li>
+</ul>
+
+<h2 id="por-que-o-trafego-do-chatgpt-pode-cair-de-um-dia-para-o-outr">Por que o tráfego do ChatGPT pode cair de um dia para o outro no relatório?</h2>
+<p><strong>Porque a classificação depende de como o assistente monta o link, e isso muda sem aviso.</strong> Desde 2025, o ChatGPT acrescenta o parâmetro utm_source=chatgpt.com a boa parte dos links que exibe, o que ajuda o GA4 a reconhecer a origem.</p>
+<p>Em outubro de 2026, durante o lançamento do GPT-6, esses links passaram alguns dias sem a tag e sem referenciador, e as visitas foram parar em Direto. O <a href="https://seroundtable.com/utm-parameters-missing-chatgpt-42299.html" target="_blank" rel="noopener">Search Engine Roundtable</a> registrou a mudança, que depois foi tratada como bug, e a tag voltou a aparecer. Quem olhava só o canal de IA viu uma queda que não aconteceu de verdade.</p>
+<p>A lição prática: acompanhe o canal de IA junto com Direto. Se um cai e o outro sobe no mesmo período, o mais provável é um problema de rastreamento, não uma perda real de visitas.</p>
+
+<h2 id="como-reportar-trafego-de-ia-para-a-lideranca">Como reportar tráfego de IA para a liderança?</h2>
+<p>Eu separo o relatório em três partes, para ninguém tomar uma parte pelo todo:</p>
+<ul>
+<li><strong>Visitas medidas:</strong> sessões, engajamento e conversões do canal Assistentes de IA, com a ressalva de que é um piso.</li>
+<li><strong>Sinais indiretos:</strong> evolução da busca pela marca no Search Console e do tráfego direto nas páginas que costumam ser citadas.</li>
+<li><strong>Presença nas respostas:</strong> um conjunto fixo de perguntas do seu mercado, testado todo mês nos principais assistentes, anotando se a marca aparece e qual página é citada.</li>
+</ul>
+<p>Para aumentar as chances de ser citado, a estrutura da página pesa muito. Escrevi sobre isso em <a href="/blog/como-ser-citado-por-ia-aeo.html">como fazer sua página ser citada por IA</a> e sobre <a href="/blog/dados-estruturados-schema-seo-e-ia.html">dados estruturados para SEO e IA</a>.</p>
+
+<h2 id="resumo">Resumo</h2>
+<p>Um grupo de canais personalizado tira o tráfego de assistentes de IA de dentro de Referência e dá um número para acompanhar. Ele leva poucos minutos para configurar, mas precisa ser lido com cuidado: é um piso, não inclui as AI Overviews e depende de como cada assistente monta os links. Medido junto com Direto e com a busca pela marca, ele já responde boa parte da pergunta da liderança.</p>
+                <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+                <h3>Onde fica o tráfego do ChatGPT no Google Analytics 4?</h3>
+                <p>Por padrão, no canal Referência, com origem chatgpt.com. Cliques sem referenciador, comuns em aplicativos, aparecem como Direto.</p>
+                <h3>Dá para medir os cliques das AI Overviews no GA4?</h3>
+                <p>Não separadamente. Esses cliques chegam como busca orgânica do Google e ficam junto com o restante do orgânico.</p>
+                <h3>Por que o canal de IA precisa ficar acima de Referência?</h3>
+                <p>Porque o GA4 atribui cada sessão ao primeiro canal cuja regra ela cumpre. Se Referência vier antes, ela fica com as visitas dos assistentes.</p>
+                <h3>Quais origens incluir na regra?</h3>
+                <p>Comece pelas que já aparecem no seu relatório de aquisição, como chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com e claude.ai, e revise a lista periodicamente.</p>
+            </div>
+            <aside class="author">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="72" height="72" loading="lazy">
+                <div>
+                    <strong>Alexandre Leite</strong>
+                    <p>Profissional de marketing digital e jornalista em Contagem (MG). Trabalha com SEO, mídia paga, CRM e conteúdo há mais de 5 anos e cobre as Eleições 2026 para a Rádio Itatiaia.</p>
+                    <p class="author-links"><a href="../#resultados">Ver resultados</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../#contato">Contato</a></p>
+                </div>
+            </aside>
+        </article>
+        <section class="wrap more">
+            <h2>Continue lendo</h2>
+            <div class="grid">
+                <a class="card" href="paginas-de-comparacao-e-alternativas-seo-saas.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Páginas de comparação e alternativas: o conteúdo de SEO que fica perto da compra</strong><span>Quem pesquisa &#x27;X vs Y&#x27; ou &#x27;alternativas a X&#x27; está perto de decidir. Veja como criar páginas de comparação honestas que ranqueiam e ajudam a vender.</span><small><time datetime="2026-10-23">23 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="dados-estruturados-schema-seo-e-ia.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Dados estruturados para SEO e IA: o que marcar primeiro no seu site</strong><span>Schema não faz milagre, mas ajuda Google e IAs a entender quem você é. Veja quais dados estruturados marcar primeiro e como validar.</span><small><time datetime="2026-10-21">21 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="como-ser-citado-por-ia-aeo.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Como fazer sua página ser citada por IA: 6 ajustes de estrutura</strong><span>A IA cita a página que responde primeiro, não a mais longa. Veja 6 ajustes de estrutura (AEO) para seu conteúdo aparecer nas respostas de IA.</span><small><time datetime="2026-10-09">9 de outubro de 2026</time> · 5 min de leitura</small></span></a>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <p class="foot-title">Vamos conversar?</p>
+            <p>Estou aberto a oportunidades em marketing e jornalismo, remotas ou na região de Belo Horizonte.</p>
+            <p class="foot-links"><a href="../#contato">Contato</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../">Portfólio</a><a href="feed.xml">RSS</a></p>
+            <p class="foot-copy">&copy; 2026 Alexandre Leite · Contagem, MG</p>
+        </div>
+    </footer>
+</body>
+</html>
