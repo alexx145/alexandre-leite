@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como distribuir leads entre vendedores no CRM</title>
+    <meta name="description" content="Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.">
+    <meta name="author" content="Alexandre Leite">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#004488">
+    <link rel="canonical" href="https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html">
+    <link rel="alternate" type="application/rss+xml" title="Blog de Alexandre Leite" href="https://alexandreleite-mkt.vercel.app/blog/feed.xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Como distribuir leads entre vendedores no CRM">
+    <meta property="og:description" content="Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.">
+    <meta property="og:url" content="https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html">
+    <meta property="og:image" content="https://alexandreleite-mkt.vercel.app/assets/profile.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Alexandre Leite">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23004488'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "@id": "https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html#article", "headline": "Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar", "description": "Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.", "url": "https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html", "mainEntityOfPage": "https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html", "datePublished": "2026-10-28", "dateModified": "2026-10-28", "inLanguage": "pt-BR", "wordCount": 910, "articleSection": "CRM e automação", "keywords": "como distribuir leads entre vendedores, distribuição de leads no CRM, rodízio de leads, round robin de leads, tempo de resposta ao lead, CRM, follow-up de vendas", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "author": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "publisher": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "isPartOf": {"@type": "Blog", "@id": "https://alexandreleite-mkt.vercel.app/blog/#blog", "name": "Blog de Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/blog/"}}, {"@type": "Person", "@id": "https://alexandreleite-mkt.vercel.app/#person", "name": "Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "jobTitle": "Profissional de Marketing Digital e Jornalista", "sameAs": ["https://www.linkedin.com/in/alexandreleitemkt/", "https://www.instagram.com/alexandreleite_mkt/", "https://www.itatiaia.com.br/autor/alexandre-leite/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Portfólio", "item": "https://alexandreleite-mkt.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://alexandreleite-mkt.vercel.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar", "item": "https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html"}]}, {"@type": "FAQPage", "@id": "https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html#faq", "mainEntity": [{"@type": "Question", "name": "O que é rodízio de leads?", "acceptedAnswer": {"@type": "Answer", "text": "É a distribuição automática em que cada lead novo vai para o próximo vendedor de uma fila. Funciona bem em times pequenos, com leads parecidos entre si."}}, {"@type": "Question", "name": "Qual modelo de distribuição de leads escolher?", "acceptedAnswer": {"@type": "Answer", "text": "Rodízio simples para times pequenos e leads semelhantes, rodízio com peso quando os vendedores têm cargas ou níveis diferentes e distribuição por critério quando o lead exige conhecimento específico, como idioma ou produto."}}, {"@type": "Question", "name": "O que fazer com o lead que chega fora do horário?", "acceptedAnswer": {"@type": "Answer", "text": "Combine antes: ele pode entrar na fila do dia seguinte, ir para um plantão ou passar por um atendimento automático que qualifica e agenda. O importante é que a regra exista e esteja escrita."}}, {"@type": "Question", "name": "Como evitar que o lead esfrie na mão de um vendedor?", "acceptedAnswer": {"@type": "Answer", "text": "Defina um prazo de primeiro contato. Se o responsável não registrar a tentativa dentro desse prazo, o CRM devolve o lead para a fila automaticamente."}}, {"@type": "Question", "name": "Quais métricas acompanhar na distribuição de leads?", "acceptedAnswer": {"@type": "Answer", "text": "Tempo até o primeiro contato, taxa de contato e conversão por vendedor e por origem. Juntas, elas mostram se o problema está no canal, na fila ou no atendimento."}}, {"@type": "Question", "name": "Por que não dividir os leads pelas campanhas de anúncio?", "acceptedAnswer": {"@type": "Answer", "text": "Porque a verba e os dados de aprendizado ficam espalhados em campanhas pequenas, e cada canal acaba seguindo uma regra diferente. No CRM, a regra é única e o histórico fica completo."}}]}]}</script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <header class="navbar">
+        <div class="wrap nav-row">
+            <a href="../" class="brand">Alexandre Leite</a>
+            <nav aria-label="Navegação">
+                <a href="../">Portfólio</a>
+                <a href="./">Blog</a>
+                <a href="../#contato" class="nav-cta">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="wrap post">
+            <nav class="crumbs" aria-label="Você está em"><a href="../">Portfólio</a> › <a href="./">Blog</a> › <span>CRM e automação</span></nav>
+            <span class="tag c-navy">CRM e automação</span>
+            <h1>Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar</h1>
+            <div class="byline">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="44" height="44">
+                <p><a href="../" rel="author">Alexandre Leite</a><span><time datetime="2026-10-28">28 de outubro de 2026</time> · 5 min de leitura</span></p>
+            </div>
+            <aside class="quick" aria-label="Resposta rápida">
+                <strong>Resposta rápida</strong>
+                <p>Para distribuir leads entre vendedores, faça a divisão no CRM, e não nas campanhas ou em grupos de mensagem. Escolha entre rodízio simples, rodízio com peso ou distribuição por critério, como idioma ou região. Defina por escrito as exceções e um prazo de primeiro contato que devolve o lead à fila, e acompanhe tempo de resposta e conversão por vendedor.</p>
+            </aside>
+            <nav class="toc" aria-label="Neste artigo">
+                <strong>Neste artigo</strong>
+                <ol>
+                    <li><a href="#por-que-a-distribuicao-de-leads-deve-ficar-no-crm">Por que a distribuição de leads deve ficar no CRM?</a></li>
+                    <li><a href="#quais-sao-os-modelos-de-distribuicao-mais-comuns">Quais são os modelos de distribuição mais comuns?</a></li>
+                    <li><a href="#como-definir-a-regra-sem-criar-conflito-no-time">Como definir a regra sem criar conflito no time?</a></li>
+                    <li><a href="#o-que-acompanhar-depois-que-a-distribuicao-esta-no-ar">O que acompanhar depois que a distribuição está no ar?</a></li>
+                    <li><a href="#distribuir-bem-resolve-a-conversao-sozinho">Distribuir bem resolve a conversão sozinho?</a></li>
+                    <li><a href="#perguntas-frequentes">Perguntas frequentes</a></li>
+                </ol>
+            </nav>
+            <div class="prose">
+<p>Quando o lead chega e ninguém sabe de quem ele é, alguém responde tarde ou ninguém responde. Quando dois vendedores acham que o lead é deles, o cliente recebe duas mensagens diferentes. Os dois problemas têm a mesma origem: a regra de distribuição não está clara, ou está no lugar errado.</p>
+<p>Abaixo está como eu organizo a distribuição de leads no CRM, do critério de rodízio ao acompanhamento.</p>
+
+<h2 id="por-que-a-distribuicao-de-leads-deve-ficar-no-crm">Por que a distribuição de leads deve ficar no CRM?</h2>
+<p><strong>Porque o CRM é o único lugar que enxerga todos os leads, todos os vendedores e o histórico de cada contato ao mesmo tempo.</strong> Quando a divisão é feita na estrutura das campanhas, na caixa de entrada de alguém ou no grupo de mensagens, cada canal segue uma regra e ninguém tem a visão completa.</p>
+<p>Numa revenda de veículos nos EUA em que trabalhei, cada vendedor tinha a própria campanha de anúncios, e a divisão dos leads acontecia ali. Mudamos a lógica: as campanhas passaram a ser organizadas pelo que muda a mensagem para o cliente, e a distribuição entre os vendedores passou a ser feita no CRM. Escrevi sobre a parte de mídia em <a href="estrutura-de-campanhas-meta-ads.html">estrutura de campanhas no Meta Ads</a>.</p>
+
+<h2 id="quais-sao-os-modelos-de-distribuicao-mais-comuns">Quais são os modelos de distribuição mais comuns?</h2>
+<p><strong>Os três mais usados são o rodízio simples, o rodízio com peso e a distribuição por critério.</strong> A escolha depende do volume de leads, do tamanho do time e de quanto os leads diferem entre si.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Modelo</th><th>Como funciona</th><th>Quando usar</th><th>Cuidado</th></tr></thead>
+<tbody>
+<tr><td>Rodízio simples</td><td>Cada lead vai para o próximo vendedor da fila</td><td>Time pequeno, leads parecidos</td><td>Pular quem está de folga ou em atendimento</td></tr>
+<tr><td>Rodízio com peso</td><td>Quem converte mais ou tem mais horas recebe uma parte maior</td><td>Times com cargas ou níveis diferentes</td><td>Rever os pesos com dados, não com impressão</td></tr>
+<tr><td>Por critério</td><td>Idioma, região, produto ou tamanho do cliente definem o responsável</td><td>Leads que exigem conhecimento específico</td><td>Ter uma regra de reserva para o lead que não se encaixa</td></tr>
+</tbody>
+</table></div>
+<p>Na prática, muitos times combinam os dois últimos: primeiro o critério (por exemplo, o idioma do cliente), depois o rodízio dentro do grupo que atende aquele critério.</p>
+
+<h2 id="como-definir-a-regra-sem-criar-conflito-no-time">Como definir a regra sem criar conflito no time?</h2>
+<p><strong>Escreva a regra antes de configurar e combine com o time o que acontece em cada exceção.</strong> A configuração no CRM é a parte fácil. O que gera atrito é o caso que ninguém previu.</p>
+<ol>
+<li><strong>Defina o que é um lead novo.</strong> Contato que já existe na base volta para o vendedor que o atendeu, ou entra no rodízio? Decida e registre.</li>
+<li><strong>Combine o horário.</strong> O lead que chega à noite ou no fim de semana vai para quem? Para a fila do dia seguinte, para um plantão ou para um atendimento automático que qualifica e agenda.</li>
+<li><strong>Estabeleça um prazo de primeiro contato.</strong> Se o responsável não falar com o lead dentro do prazo combinado, o lead volta para a fila.</li>
+<li><strong>Trate ausências.</strong> Férias, folga e atestado precisam tirar o vendedor do rodízio automaticamente, não depender de alguém lembrar.</li>
+<li><strong>Deixe claro quem pode transferir.</strong> Transferência sem registro faz o histórico se perder.</li>
+</ol>
+
+<h2 id="o-que-acompanhar-depois-que-a-distribuicao-esta-no-ar">O que acompanhar depois que a distribuição está no ar?</h2>
+<p><strong>Tempo até o primeiro contato, taxa de contato e conversão por vendedor e por origem.</strong> Esses três números mostram se a regra está funcionando ou se o lead está esfriando na fila.</p>
+<ul>
+<li><strong>Tempo até o primeiro contato:</strong> o intervalo entre a entrada do lead no CRM e a primeira tentativa registrada. É o indicador que mais denuncia gargalo.</li>
+<li><strong>Taxa de contato:</strong> quantos leads foram efetivamente atendidos, e não apenas recebidos.</li>
+<li><strong>Conversão por vendedor e por origem:</strong> ajuda a separar problema de canal de problema de atendimento.</li>
+</ul>
+<p>Eu acompanhava esses números num painel semanal em SQL e Power BI, junto com o custo por lead de cada canal. Ver as duas pontas juntas evita culpar a mídia por um lead que esfriou na fila, ou culpar o vendedor por um lead que nunca teve perfil. Mostrei como montar uma comparação justa em <a href="como-medir-campanha-de-crm-grupo-de-controle.html">como medir se uma campanha de CRM funcionou</a>.</p>
+
+<h2 id="distribuir-bem-resolve-a-conversao-sozinho">Distribuir bem resolve a conversão sozinho?</h2>
+<p><strong>Não. A distribuição garante que o lead chegue rápido à pessoa certa; o que acontece depois depende do follow-up e da página que gerou o contato.</strong> Na mesma revenda, a conversão de lead em venda subiu 20% quando refizemos as landing pages e padronizamos a sequência de follow-up dos vendedores. A distribuição organizada foi a base para esse trabalho, não o trabalho inteiro.</p>
+<p>Uma sequência padrão de follow-up costuma ter poucos contatos, em canais diferentes e com um próximo passo claro em cada um. Ela também deixa o atendimento comparável entre vendedores, o que torna os números do painel mais confiáveis.</p>
+
+<blockquote><strong>Resumo prático:</strong> coloque a distribuição no CRM, escolha o modelo pelo tipo de lead, escreva as exceções antes de configurar, defina um prazo de primeiro contato com devolução automática para a fila e acompanhe tempo de resposta, taxa de contato e conversão por vendedor e por origem.</blockquote>
+
+<p>Se quiser ver outros projetos de CRM e automação em que trabalhei, eles estão no meu <a href="../#experiencia">portfólio</a>.</p>
+                <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+                <h3>O que é rodízio de leads?</h3>
+                <p>É a distribuição automática em que cada lead novo vai para o próximo vendedor de uma fila. Funciona bem em times pequenos, com leads parecidos entre si.</p>
+                <h3>Qual modelo de distribuição de leads escolher?</h3>
+                <p>Rodízio simples para times pequenos e leads semelhantes, rodízio com peso quando os vendedores têm cargas ou níveis diferentes e distribuição por critério quando o lead exige conhecimento específico, como idioma ou produto.</p>
+                <h3>O que fazer com o lead que chega fora do horário?</h3>
+                <p>Combine antes: ele pode entrar na fila do dia seguinte, ir para um plantão ou passar por um atendimento automático que qualifica e agenda. O importante é que a regra exista e esteja escrita.</p>
+                <h3>Como evitar que o lead esfrie na mão de um vendedor?</h3>
+                <p>Defina um prazo de primeiro contato. Se o responsável não registrar a tentativa dentro desse prazo, o CRM devolve o lead para a fila automaticamente.</p>
+                <h3>Quais métricas acompanhar na distribuição de leads?</h3>
+                <p>Tempo até o primeiro contato, taxa de contato e conversão por vendedor e por origem. Juntas, elas mostram se o problema está no canal, na fila ou no atendimento.</p>
+                <h3>Por que não dividir os leads pelas campanhas de anúncio?</h3>
+                <p>Porque a verba e os dados de aprendizado ficam espalhados em campanhas pequenas, e cada canal acaba seguindo uma regra diferente. No CRM, a regra é única e o histórico fica completo.</p>
+            </div>
+            <aside class="author">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="72" height="72" loading="lazy">
+                <div>
+                    <strong>Alexandre Leite</strong>
+                    <p>Profissional de marketing digital e jornalista em Contagem (MG). Trabalha com SEO, mídia paga, CRM e conteúdo há mais de 5 anos e cobre as Eleições 2026 para a Rádio Itatiaia.</p>
+                    <p class="author-links"><a href="../#resultados">Ver resultados</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../#contato">Contato</a></p>
+                </div>
+            </aside>
+        </article>
+        <section class="wrap more">
+            <h2>Continue lendo</h2>
+            <div class="grid">
+                <a class="card" href="segmentacao-de-base-no-crm-ciclo-de-vida.html"><span class="card-top c-navy">CRM e automação</span><span class="card-body"><strong>Segmentação de base no CRM: como dividir clientes por ciclo de vida</strong><span>Segmentar só por dado cadastral gera mensagem genérica. Veja como dividir a base do CRM por ciclo de vida e o que comunicar em cada etapa.</span><small><time datetime="2026-10-22">22 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="como-medir-campanha-de-crm-grupo-de-controle.html"><span class="card-top c-navy">CRM e automação</span><span class="card-body"><strong>Como medir se uma campanha de CRM funcionou: linha de base e grupo de controle</strong><span>Taxa de abertura não prova resultado. Veja como usar linha de base, grupo de controle e prazo definido para medir o efeito real de uma campanha de CRM.</span><small><time datetime="2026-10-20">20 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="como-reativar-clientes-inativos-crm.html"><span class="card-top c-navy">CRM e automação</span><span class="card-body"><strong>Como reativar clientes inativos no CRM: régua de win-back em 5 passos</strong><span>Veja como montar uma régua de win-back para reativar clientes e leads inativos no CRM: segmentação, mensagem, canais, saída fácil e medição.</span><small><time datetime="2026-10-19">19 de outubro de 2026</time> · 3 min de leitura</small></span></a>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <p class="foot-title">Vamos conversar?</p>
+            <p>Estou aberto a oportunidades em marketing e jornalismo, remotas ou na região de Belo Horizonte.</p>
+            <p class="foot-links"><a href="../#contato">Contato</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../">Portfólio</a><a href="feed.xml">RSS</a></p>
+            <p class="foot-copy">&copy; 2026 Alexandre Leite · Contagem, MG</p>
+        </div>
+    </footer>
+</body>
+</html>
