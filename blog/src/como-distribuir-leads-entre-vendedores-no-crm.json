@@ -1,0 +1,45 @@
+{
+ "slug": "como-distribuir-leads-entre-vendedores-no-crm",
+ "title": "Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar",
+ "seo_title": "Como distribuir leads entre vendedores no CRM",
+ "description": "Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.",
+ "date": "2026-10-28",
+ "category": "CRM e automação",
+ "keywords": [
+  "como distribuir leads entre vendedores",
+  "distribuição de leads no CRM",
+  "rodízio de leads",
+  "round robin de leads",
+  "tempo de resposta ao lead",
+  "CRM",
+  "follow-up de vendas"
+ ],
+ "quick_answer": "Para distribuir leads entre vendedores, faça a divisão no CRM, e não nas campanhas ou em grupos de mensagem. Escolha entre rodízio simples, rodízio com peso ou distribuição por critério, como idioma ou região. Defina por escrito as exceções e um prazo de primeiro contato que devolve o lead à fila, e acompanhe tempo de resposta e conversão por vendedor.",
+ "body_html": "<p>Quando o lead chega e ninguém sabe de quem ele é, alguém responde tarde ou ninguém responde. Quando dois vendedores acham que o lead é deles, o cliente recebe duas mensagens diferentes. Os dois problemas têm a mesma origem: a regra de distribuição não está clara, ou está no lugar errado.</p>\n<p>Abaixo está como eu organizo a distribuição de leads no CRM, do critério de rodízio ao acompanhamento.</p>\n\n<h2>Por que a distribuição de leads deve ficar no CRM?</h2>\n<p><strong>Porque o CRM é o único lugar que enxerga todos os leads, todos os vendedores e o histórico de cada contato ao mesmo tempo.</strong> Quando a divisão é feita na estrutura das campanhas, na caixa de entrada de alguém ou no grupo de mensagens, cada canal segue uma regra e ninguém tem a visão completa.</p>\n<p>Numa revenda de veículos nos EUA em que trabalhei, cada vendedor tinha a própria campanha de anúncios, e a divisão dos leads acontecia ali. Mudamos a lógica: as campanhas passaram a ser organizadas pelo que muda a mensagem para o cliente, e a distribuição entre os vendedores passou a ser feita no CRM. Escrevi sobre a parte de mídia em <a href=\"estrutura-de-campanhas-meta-ads.html\">estrutura de campanhas no Meta Ads</a>.</p>\n\n<h2>Quais são os modelos de distribuição mais comuns?</h2>\n<p><strong>Os três mais usados são o rodízio simples, o rodízio com peso e a distribuição por critério.</strong> A escolha depende do volume de leads, do tamanho do time e de quanto os leads diferem entre si.</p>\n<table>\n<thead><tr><th>Modelo</th><th>Como funciona</th><th>Quando usar</th><th>Cuidado</th></tr></thead>\n<tbody>\n<tr><td>Rodízio simples</td><td>Cada lead vai para o próximo vendedor da fila</td><td>Time pequeno, leads parecidos</td><td>Pular quem está de folga ou em atendimento</td></tr>\n<tr><td>Rodízio com peso</td><td>Quem converte mais ou tem mais horas recebe uma parte maior</td><td>Times com cargas ou níveis diferentes</td><td>Rever os pesos com dados, não com impressão</td></tr>\n<tr><td>Por critério</td><td>Idioma, região, produto ou tamanho do cliente definem o responsável</td><td>Leads que exigem conhecimento específico</td><td>Ter uma regra de reserva para o lead que não se encaixa</td></tr>\n</tbody>\n</table>\n<p>Na prática, muitos times combinam os dois últimos: primeiro o critério (por exemplo, o idioma do cliente), depois o rodízio dentro do grupo que atende aquele critério.</p>\n\n<h2>Como definir a regra sem criar conflito no time?</h2>\n<p><strong>Escreva a regra antes de configurar e combine com o time o que acontece em cada exceção.</strong> A configuração no CRM é a parte fácil. O que gera atrito é o caso que ninguém previu.</p>\n<ol>\n<li><strong>Defina o que é um lead novo.</strong> Contato que já existe na base volta para o vendedor que o atendeu, ou entra no rodízio? Decida e registre.</li>\n<li><strong>Combine o horário.</strong> O lead que chega à noite ou no fim de semana vai para quem? Para a fila do dia seguinte, para um plantão ou para um atendimento automático que qualifica e agenda.</li>\n<li><strong>Estabeleça um prazo de primeiro contato.</strong> Se o responsável não falar com o lead dentro do prazo combinado, o lead volta para a fila.</li>\n<li><strong>Trate ausências.</strong> Férias, folga e atestado precisam tirar o vendedor do rodízio automaticamente, não depender de alguém lembrar.</li>\n<li><strong>Deixe claro quem pode transferir.</strong> Transferência sem registro faz o histórico se perder.</li>\n</ol>\n\n<h2>O que acompanhar depois que a distribuição está no ar?</h2>\n<p><strong>Tempo até o primeiro contato, taxa de contato e conversão por vendedor e por origem.</strong> Esses três números mostram se a regra está funcionando ou se o lead está esfriando na fila.</p>\n<ul>\n<li><strong>Tempo até o primeiro contato:</strong> o intervalo entre a entrada do lead no CRM e a primeira tentativa registrada. É o indicador que mais denuncia gargalo.</li>\n<li><strong>Taxa de contato:</strong> quantos leads foram efetivamente atendidos, e não apenas recebidos.</li>\n<li><strong>Conversão por vendedor e por origem:</strong> ajuda a separar problema de canal de problema de atendimento.</li>\n</ul>\n<p>Eu acompanhava esses números num painel semanal em SQL e Power BI, junto com o custo por lead de cada canal. Ver as duas pontas juntas evita culpar a mídia por um lead que esfriou na fila, ou culpar o vendedor por um lead que nunca teve perfil. Mostrei como montar uma comparação justa em <a href=\"como-medir-campanha-de-crm-grupo-de-controle.html\">como medir se uma campanha de CRM funcionou</a>.</p>\n\n<h2>Distribuir bem resolve a conversão sozinho?</h2>\n<p><strong>Não. A distribuição garante que o lead chegue rápido à pessoa certa; o que acontece depois depende do follow-up e da página que gerou o contato.</strong> Na mesma revenda, a conversão de lead em venda subiu 20% quando refizemos as landing pages e padronizamos a sequência de follow-up dos vendedores. A distribuição organizada foi a base para esse trabalho, não o trabalho inteiro.</p>\n<p>Uma sequência padrão de follow-up costuma ter poucos contatos, em canais diferentes e com um próximo passo claro em cada um. Ela também deixa o atendimento comparável entre vendedores, o que torna os números do painel mais confiáveis.</p>\n\n<blockquote><strong>Resumo prático:</strong> coloque a distribuição no CRM, escolha o modelo pelo tipo de lead, escreva as exceções antes de configurar, defina um prazo de primeiro contato com devolução automática para a fila e acompanhe tempo de resposta, taxa de contato e conversão por vendedor e por origem.</blockquote>\n\n<p>Se quiser ver outros projetos de CRM e automação em que trabalhei, eles estão no meu <a href=\"../#experiencia\">portfólio</a>.</p>",
+ "faq": [
+  {
+   "q": "O que é rodízio de leads?",
+   "a": "É a distribuição automática em que cada lead novo vai para o próximo vendedor de uma fila. Funciona bem em times pequenos, com leads parecidos entre si."
+  },
+  {
+   "q": "Qual modelo de distribuição de leads escolher?",
+   "a": "Rodízio simples para times pequenos e leads semelhantes, rodízio com peso quando os vendedores têm cargas ou níveis diferentes e distribuição por critério quando o lead exige conhecimento específico, como idioma ou produto."
+  },
+  {
+   "q": "O que fazer com o lead que chega fora do horário?",
+   "a": "Combine antes: ele pode entrar na fila do dia seguinte, ir para um plantão ou passar por um atendimento automático que qualifica e agenda. O importante é que a regra exista e esteja escrita."
+  },
+  {
+   "q": "Como evitar que o lead esfrie na mão de um vendedor?",
+   "a": "Defina um prazo de primeiro contato. Se o responsável não registrar a tentativa dentro desse prazo, o CRM devolve o lead para a fila automaticamente."
+  },
+  {
+   "q": "Quais métricas acompanhar na distribuição de leads?",
+   "a": "Tempo até o primeiro contato, taxa de contato e conversão por vendedor e por origem. Juntas, elas mostram se o problema está no canal, na fila ou no atendimento."
+  },
+  {
+   "q": "Por que não dividir os leads pelas campanhas de anúncio?",
+   "a": "Porque a verba e os dados de aprendizado ficam espalhados em campanhas pequenas, e cada canal acaba seguindo uma regra diferente. No CRM, a regra é única e o histórico fica completo."
+  }
+ ]
+}
