@@ -1,0 +1,37 @@
+{
+  "slug": "como-atualizar-conteudo-antigo-seo",
+  "title": "Como atualizar conteúdo antigo: quando reescrever, juntar ou redirecionar uma página",
+  "seo_title": "Conteúdo antigo: quando reescrever, juntar ou redirecionar",
+  "description": "Roteiro para decidir o que fazer com posts antigos que perderam tráfego: atualizar, consolidar páginas parecidas ou redirecionar, e o que conferir depois.",
+  "date": "2026-11-02",
+  "category": "SEO e IA",
+  "keywords": [
+    "atualizar conteúdo antigo",
+    "content refresh",
+    "canibalização de palavras-chave",
+    "consolidar páginas",
+    "redirecionamento 301",
+    "Google Search Console",
+    "SEO para IA"
+  ],
+  "quick_answer": "Abra o Google Search Console, compare os últimos três meses com o mesmo período do ano anterior e separe as páginas que perderam cliques. Se a página ainda responde bem à busca, atualize. Se duas páginas disputam a mesma consulta, junte as duas na melhor. Se o assunto morreu, redirecione para a página mais próxima.",
+  "body_html": "<p>Todo blog com mais de um ano tem o mesmo problema: posts que já trouxeram muita visita e hoje aparecem cada vez menos. A reação mais comum é escrever um conteúdo novo sobre o mesmo assunto. Na maioria das vezes, isso piora a situação, porque agora são duas páginas disputando a mesma busca.</p>\n<p>Antes de escrever algo novo, vale olhar para o que já existe. Abaixo está o roteiro que uso para decidir o que fazer com cada página antiga.</p>\n\n<h2>Como saber quais páginas precisam de atenção?</h2>\n<p>O ponto de partida é o Google Search Console. No relatório de desempenho, compare os últimos três meses com o mesmo período do ano anterior e ordene as páginas pela diferença de cliques. Comparar com o ano anterior evita confundir queda real com sazonalidade.</p>\n<p>Para cada página que caiu, anote três coisas:</p>\n<ul>\n<li><strong>A consulta principal:</strong> a busca que mais trazia cliques antes da queda.</li>\n<li><strong>O que mudou:</strong> a posição caiu, ou a posição se manteve e o clique caiu? A segunda situação costuma indicar resumo de IA, novos elementos na página de resultados ou um título que deixou de chamar atenção.</li>\n<li><strong>Quem ocupa o seu lugar:</strong> pesquise a consulta e veja o que as páginas acima da sua têm que a sua não tem.</li>\n</ul>\n\n<h2>Quando vale só atualizar a página?</h2>\n<p>Atualizar é o caminho quando a página ainda responde à intenção da busca, mas ficou desatualizada ou incompleta. Sinais comuns: dados de anos atrás, prints de ferramentas que mudaram de interface, links quebrados e perguntas que as pessoas fazem hoje e o texto não responde.</p>\n<p>Uma boa atualização não é trocar o ano no título. Na prática, ela envolve:</p>\n<ol>\n<li>Colocar a resposta direta logo no início, em um parágrafo curto. Isso ajuda o leitor e aumenta a chance de a página ser usada em resumos de IA.</li>\n<li>Revisar cada dado e cada afirmação, com fonte.</li>\n<li>Transformar subtítulos genéricos em perguntas reais, do jeito que aparecem no Search Console.</li>\n<li>Incluir os pontos que as páginas concorrentes cobrem e a sua não cobre.</li>\n<li>Atualizar a data de modificação só quando houve mudança de verdade no conteúdo.</li>\n</ol>\n\n<h2>Quando juntar duas páginas em uma?</h2>\n<p>Se você tem dois ou mais posts sobre praticamente o mesmo assunto, o Google precisa escolher qual mostrar, e muitas vezes alterna entre eles. É a canibalização. O sinal mais claro está no Search Console: filtre pela consulta e veja se mais de uma URL sua recebe impressões para ela.</p>\n<p>Nesse caso, escolha a página mais forte (a que tem mais links, mais cliques ou a URL mais clara), traga para ela o que as outras têm de melhor e redirecione as outras com 301 para a escolhida. O resultado é uma página mais completa no lugar de várias medianas.</p>\n<blockquote>Juntar páginas não é perder conteúdo. É concentrar em um endereço o que estava espalhado em vários.</blockquote>\n\n<h2>Quando redirecionar ou retirar uma página?</h2>\n<p>Alguns conteúdos perdem o sentido: uma promoção que acabou, um recurso que a ferramenta descontinuou, um evento que já passou. Se existe uma página próxima que atende quem chegaria ali, redirecione com 301. Se não existe nada parecido e a página não recebe visitas nem links, ela pode sair do ar.</p>\n<p>O erro a evitar é redirecionar tudo para a página inicial. Para o usuário, é frustrante cair na home procurando outra coisa, e para o Google isso costuma ser tratado como página inexistente.</p>\n\n<h2>Como organizar essa revisão sem parar a produção?</h2>\n<p>Uma tabela simples resolve. Em uma planilha, liste as páginas que caíram, a consulta principal, a decisão (atualizar, juntar ou redirecionar) e a data da mudança. Reserve parte da rotina de conteúdo para essa fila, em vez de tratar atualização como algo que só acontece quando sobra tempo.</p>\n<table>\n<thead><tr><th>Situação</th><th>Decisão</th><th>O que conferir depois</th></tr></thead>\n<tbody>\n<tr><td>A página ainda responde à busca, mas está desatualizada</td><td>Atualizar</td><td>Posição e cliques da consulta principal</td></tr>\n<tr><td>Duas URLs recebem impressões para a mesma consulta</td><td>Juntar e redirecionar com 301</td><td>Se só a URL escolhida aparece para a consulta</td></tr>\n<tr><td>O assunto perdeu o sentido</td><td>Redirecionar para a página mais próxima</td><td>Erros de rastreamento e links internos antigos</td></tr>\n</tbody>\n</table>\n\n<h2>Como medir se a atualização funcionou?</h2>\n<p>Dê tempo para o Google rastrear a página de novo. Você pode pedir a inspeção da URL no Search Console para acelerar. Depois de algumas semanas, compare o mesmo intervalo antes e depois da mudança, olhando a consulta principal e o total de cliques da página. Anote o resultado na mesma planilha: com o tempo, ela mostra que tipo de ajuste funciona melhor no seu site.</p>\n<p>Também vale atualizar os links internos. Se outras páginas do site ainda apontam para uma URL que foi redirecionada, troque pelo endereço final. Isso evita redirecionamentos em cadeia e reforça a página que você escolheu.</p>",
+  "faq": [
+    {
+      "q": "Mudar a data de um post antigo ajuda no SEO?",
+      "a": "Só trocar a data, sem mudar o conteúdo, não ajuda e pode passar uma informação falsa para o leitor. Atualize a data de modificação quando houver revisão real do texto, dos dados ou da estrutura."
+    },
+    {
+      "q": "Quantas páginas devo atualizar por mês?",
+      "a": "Não existe número certo. O que funciona é ter uma fila priorizada pelas páginas que mais perderam cliques e reservar uma parte fixa da rotina de conteúdo para ela."
+    },
+    {
+      "q": "Juntar páginas faz perder tráfego?",
+      "a": "Quando as páginas disputam a mesma busca, juntar costuma concentrar sinais em uma URL só. Use redirecionamento 301 das páginas antigas para a escolhida e atualize os links internos."
+    },
+    {
+      "q": "Atualizar conteúdo ajuda a aparecer em respostas de IA?",
+      "a": "Ajuda quando a atualização deixa a resposta mais clara e mais fácil de citar: resposta direta no início, subtítulos em forma de pergunta, dados com fonte e informação atualizada."
+    }
+  ]
+}
