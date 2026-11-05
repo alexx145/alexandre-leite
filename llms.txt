@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Como melhorar o CTR orgânico: títulos e meta descriptions que ganham o clique](https://alexandreleite-mkt.vercel.app/blog/como-melhorar-ctr-organico-titulo-meta-description.html): Como achar páginas com muitas impressões e poucos cliques no Search Console e reescrever título e meta description para ganhar o clique.
 - [Como atualizar conteúdo antigo: quando reescrever, juntar ou redirecionar uma página](https://alexandreleite-mkt.vercel.app/blog/como-atualizar-conteudo-antigo-seo.html): Roteiro para decidir o que fazer com posts antigos que perderam tráfego: atualizar, consolidar páginas parecidas ou redirecionar, e o que conferir depois.
 - [Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar](https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html): Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.
 - [Tráfego de IA no GA4: como separar as visitas de ChatGPT, Perplexity e Gemini](https://alexandreleite-mkt.vercel.app/blog/trafego-de-ia-no-ga4-chatgpt-perplexity.html): Como criar um canal de assistentes de IA no GA4, o que entra nele, o que fica de fora e por que parte dessas visitas aparece como direto.
