@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Linkagem interna: como ligar as páginas do site para o Google e para o leitor](https://alexandreleite-mkt.vercel.app/blog/linkagem-interna-como-fazer.html): Como planejar links internos: páginas pilar, texto âncora, páginas órfãs e uma rotina simples para revisar os links a cada novo conteúdo publicado.
 - [Como melhorar o CTR orgânico: títulos e meta descriptions que ganham o clique](https://alexandreleite-mkt.vercel.app/blog/como-melhorar-ctr-organico-titulo-meta-description.html): Como achar páginas com muitas impressões e poucos cliques no Search Console e reescrever título e meta description para ganhar o clique.
 - [Como atualizar conteúdo antigo: quando reescrever, juntar ou redirecionar uma página](https://alexandreleite-mkt.vercel.app/blog/como-atualizar-conteudo-antigo-seo.html): Roteiro para decidir o que fazer com posts antigos que perderam tráfego: atualizar, consolidar páginas parecidas ou redirecionar, e o que conferir depois.
 - [Como distribuir leads entre vendedores no CRM: modelos, regras e o que acompanhar](https://alexandreleite-mkt.vercel.app/blog/como-distribuir-leads-entre-vendedores-no-crm.html): Rodízio simples, com peso ou por critério: como escolher o modelo, escrever as regras de exceção e medir o tempo de resposta na distribuição de leads.
