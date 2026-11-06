@@ -1,0 +1,37 @@
+{
+  "slug": "linkagem-interna-como-fazer",
+  "title": "Linkagem interna: como ligar as páginas do site para o Google e para o leitor",
+  "seo_title": "Linkagem interna: como ligar as páginas do seu site",
+  "description": "Como planejar links internos: páginas pilar, texto âncora, páginas órfãs e uma rotina simples para revisar os links a cada novo conteúdo publicado.",
+  "date": "2026-11-06",
+  "category": "SEO e IA",
+  "keywords": [
+    "linkagem interna",
+    "links internos",
+    "texto âncora",
+    "página pilar",
+    "páginas órfãs",
+    "SEO on-page",
+    "arquitetura de site"
+  ],
+  "quick_answer": "Linkagem interna é ligar as páginas do próprio site com links no meio do texto. Escolha as páginas mais importantes, faça os conteúdos relacionados apontarem para elas com um texto âncora que descreva o destino e garanta que nenhuma página fique sem links chegando. A cada novo artigo, adicione links de ida e de volta.",
+  "body_html": "<p>Muita gente publica um bom artigo e espera que ele apareça no Google sozinho. Só que o Google descobre e entende as páginas, em boa parte, pelos links. Se um conteúdo novo não recebe nenhum link de outras páginas do site, ele demora mais para ser encontrado e parece menos importante do que é.</p>\n<p>Linkagem interna é uma das tarefas de SEO mais baratas: não depende de ninguém de fora e pode ser feita em qualquer CMS. Abaixo está o processo que uso.</p>\n\n<h2>Por que os links internos importam?</h2>\n<p>Os links internos fazem três coisas ao mesmo tempo:</p>\n<ul>\n<li><strong>Ajudam o Google a encontrar páginas:</strong> o robô segue links. Página sem link chegando é mais difícil de rastrear.</li>\n<li><strong>Mostram o que é mais importante:</strong> páginas que recebem muitos links do próprio site tendem a ser vistas como centrais.</li>\n<li><strong>Explicam o assunto de cada página:</strong> o texto do link (texto âncora) dá contexto sobre o destino.</li>\n</ul>\n<p>Para o leitor, o efeito é simples: ele encontra o próximo passo sem precisar voltar para a busca.</p>\n\n<h2>Por onde começar?</h2>\n<p>Antes de sair colocando links, defina quais páginas você quer fortalecer. Normalmente são as que geram negócio: páginas de serviço, de produto, de demonstração ou os guias mais completos de cada tema. Chamo essas de páginas pilar.</p>\n<p>Depois, agrupe os conteúdos por assunto. Cada grupo deve ter uma página pilar e vários artigos de apoio que respondem dúvidas mais específicas. A regra é: os artigos de apoio apontam para a pilar, e a pilar aponta para os artigos de apoio.</p>\n<table>\n<thead><tr><th>Tipo de página</th><th>Recebe links de</th><th>Aponta para</th></tr></thead>\n<tbody>\n<tr><td>Página pilar</td><td>Artigos de apoio do mesmo tema, menu e home</td><td>Artigos de apoio e página de conversão</td></tr>\n<tr><td>Artigo de apoio</td><td>Página pilar e artigos vizinhos</td><td>Página pilar e um ou dois artigos relacionados</td></tr>\n<tr><td>Página de conversão</td><td>Pilar e artigos com intenção de compra</td><td>Poucos links, para não distrair</td></tr>\n</tbody>\n</table>\n\n<h2>Como escrever o texto âncora?</h2>\n<p>O texto âncora deve dizer o que a pessoa vai encontrar ao clicar. \"Clique aqui\" e \"saiba mais\" não dizem nada. \"Como montar uma régua de e-mail para clientes inativos\" diz.</p>\n<p>Alguns cuidados:</p>\n<ol>\n<li>Varie o texto. Não use exatamente a mesma frase em todos os links para a mesma página.</li>\n<li>Coloque o link no meio do texto, onde ele faz sentido para quem está lendo.</li>\n<li>Evite links demais no mesmo parágrafo. Se tudo é link, nada se destaca.</li>\n<li>Não aponte duas âncoras iguais para páginas diferentes. Isso confunde o leitor e o Google.</li>\n</ol>\n\n<h2>O que são páginas órfãs e como encontrar?</h2>\n<p>Página órfã é aquela que nenhuma outra página do site linka. Ela pode estar no sitemap, mas sem links chegando fica isolada.</p>\n<p>Para encontrar, compare a lista de URLs do sitemap com as páginas que recebem links internos. Ferramentas de rastreamento como Screaming Frog ou o relatório de links do Google Search Console ajudam. Em site pequeno, dá para fazer em uma planilha: liste as páginas e, para cada uma, anote quantos links internos ela recebe.</p>\n<blockquote>Se você não consegue chegar a uma página clicando a partir da home, o Google também vai ter mais dificuldade.</blockquote>\n\n<h2>Qual rotina usar a cada novo conteúdo?</h2>\n<p>A forma mais fácil de manter a linkagem em dia é transformar em hábito a cada publicação:</p>\n<ul>\n<li><strong>Links de saída:</strong> o novo artigo aponta para a página pilar do tema e para um ou dois artigos relacionados.</li>\n<li><strong>Links de entrada:</strong> volte em dois ou três conteúdos antigos do mesmo tema e adicione um link para o novo. Esse passo é o que mais gente esquece.</li>\n<li><strong>Revisão trimestral:</strong> procure links quebrados, links que passam por redirecionamento e páginas órfãs.</li>\n</ul>\n<p>Para achar os conteúdos antigos certos, pesquise no Google site:seudominio.com.br seguido do assunto. Os primeiros resultados costumam ser os melhores lugares para colocar o link.</p>\n\n<h2>Linkagem interna ajuda a aparecer em respostas de IA?</h2>\n<p>Ajuda de forma indireta. Ferramentas de IA que buscam na web também dependem de páginas fáceis de rastrear e de entender. Um site organizado por temas, com páginas pilar claras e links descritivos, deixa mais evidente sobre o que você fala com profundidade. Isso não garante citação, mas tira obstáculos do caminho.</p>",
+  "faq": [
+    {
+      "q": "Quantos links internos devo colocar em um artigo?",
+      "a": "Não existe número fixo. Coloque os links que ajudam o leitor no próximo passo: normalmente a página pilar do tema e um ou dois artigos relacionados já resolvem."
+    },
+    {
+      "q": "Link no menu e no rodapé conta como link interno?",
+      "a": "Conta, mas links no meio do texto costumam passar mais contexto, porque vêm acompanhados do assunto em volta. Use os dois."
+    },
+    {
+      "q": "Devo usar a mesma palavra-chave em todos os textos âncora?",
+      "a": "Não. Varie o texto mantendo o sentido. Repetir a mesma âncora exata em todos os links soa artificial para o leitor."
+    },
+    {
+      "q": "Com que frequência revisar os links internos?",
+      "a": "Adicione links a cada novo conteúdo e faça uma revisão geral a cada três meses, procurando links quebrados, redirecionamentos e páginas órfãs."
+    }
+  ]
+}
