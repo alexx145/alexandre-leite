@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canibalização de palavras-chave: como achar e resolver</title>
+    <meta name="description" content="Como achar no Search Console páginas do mesmo site disputando a mesma busca e decidir entre unir, redirecionar, diferenciar ou ajustar links internos.">
+    <meta name="author" content="Alexandre Leite">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#004488">
+    <link rel="canonical" href="https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html">
+    <link rel="alternate" type="application/rss+xml" title="Blog de Alexandre Leite" href="https://alexandreleite-mkt.vercel.app/blog/feed.xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Canibalização de palavras-chave: como achar e resolver">
+    <meta property="og:description" content="Como achar no Search Console páginas do mesmo site disputando a mesma busca e decidir entre unir, redirecionar, diferenciar ou ajustar links internos.">
+    <meta property="og:url" content="https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html">
+    <meta property="og:image" content="https://alexandreleite-mkt.vercel.app/assets/profile.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Alexandre Leite">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23004488'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAL%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "@id": "https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html#article", "headline": "Canibalização de palavras-chave: como descobrir páginas do seu site disputando a mesma busca", "description": "Como achar no Search Console páginas do mesmo site disputando a mesma busca e decidir entre unir, redirecionar, diferenciar ou ajustar links internos.", "url": "https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html", "mainEntityOfPage": "https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html", "datePublished": "2026-11-11", "dateModified": "2026-11-11", "inLanguage": "pt-BR", "wordCount": 741, "articleSection": "SEO e IA", "keywords": "canibalização de palavras-chave, keyword cannibalization, Google Search Console, consolidação de conteúdo, redirecionamento 301, intenção de busca, SEO on-page", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "author": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "publisher": {"@id": "https://alexandreleite-mkt.vercel.app/#person"}, "isPartOf": {"@type": "Blog", "@id": "https://alexandreleite-mkt.vercel.app/blog/#blog", "name": "Blog de Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/blog/"}}, {"@type": "Person", "@id": "https://alexandreleite-mkt.vercel.app/#person", "name": "Alexandre Leite", "url": "https://alexandreleite-mkt.vercel.app/", "image": "https://alexandreleite-mkt.vercel.app/assets/profile.jpg", "jobTitle": "Profissional de Marketing Digital e Jornalista", "sameAs": ["https://www.linkedin.com/in/alexandreleitemkt/", "https://www.instagram.com/alexandreleite_mkt/", "https://www.itatiaia.com.br/autor/alexandre-leite/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Portfólio", "item": "https://alexandreleite-mkt.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://alexandreleite-mkt.vercel.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Canibalização de palavras-chave: como descobrir páginas do seu site disputando a mesma busca", "item": "https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html"}]}, {"@type": "FAQPage", "@id": "https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html#faq", "mainEntity": [{"@type": "Question", "name": "Duas páginas aparecendo para a mesma busca é sempre canibalização?", "acceptedAnswer": {"@type": "Answer", "text": "Não. Se cada página atende uma intenção diferente e as duas se mantêm estáveis, pode até ser positivo. É canibalização quando elas se revezam e nenhuma se firma."}}, {"@type": "Question", "name": "Posso usar canonical em vez de redirecionar?", "acceptedAnswer": {"@type": "Answer", "text": "O canonical é uma sugestão para o Google e faz sentido quando as duas páginas precisam continuar existindo para o usuário. Se uma delas não precisa mais existir, o redirecionamento 301 é mais claro."}}, {"@type": "Question", "name": "Quanto tempo leva para ver resultado depois de unir páginas?", "acceptedAnswer": {"@type": "Answer", "text": "Depende da frequência com que o Google rastreia o site. Em geral, vale acompanhar algumas semanas, comparando o mesmo período antes e depois na consulta principal."}}, {"@type": "Question", "name": "Preciso de ferramenta paga para encontrar canibalização?", "acceptedAnswer": {"@type": "Answer", "text": "Não. O Google Search Console e a pesquisa site: no Google já resolvem a maioria dos casos. Ferramentas pagas ajudam em sites muito grandes."}}]}]}</script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <header class="navbar">
+        <div class="wrap nav-row">
+            <a href="../" class="brand">Alexandre Leite</a>
+            <nav aria-label="Navegação">
+                <a href="../">Portfólio</a>
+                <a href="./">Blog</a>
+                <a href="../#contato" class="nav-cta">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="wrap post">
+            <nav class="crumbs" aria-label="Você está em"><a href="../">Portfólio</a> › <a href="./">Blog</a> › <span>SEO e IA</span></nav>
+            <span class="tag c-blue">SEO e IA</span>
+            <h1>Canibalização de palavras-chave: como descobrir páginas do seu site disputando a mesma busca</h1>
+            <div class="byline">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="44" height="44">
+                <p><a href="../" rel="author">Alexandre Leite</a><span><time datetime="2026-11-11">11 de novembro de 2026</time> · 4 min de leitura</span></p>
+            </div>
+            <aside class="quick" aria-label="Resposta rápida">
+                <strong>Resposta rápida</strong>
+                <p>Canibalização acontece quando duas ou mais páginas do mesmo site tentam responder à mesma busca e o Google alterna entre elas. Para achar, filtre a consulta no Search Console e veja se várias URLs recebem impressões. Depois, escolha uma página principal: una o conteúdo e redirecione a outra, ou diferencie a intenção de cada uma e ajuste os links internos.</p>
+            </aside>
+            <nav class="toc" aria-label="Neste artigo">
+                <strong>Neste artigo</strong>
+                <ol>
+                    <li><a href="#o-que-e-canibalizacao-de-palavras-chave">O que é canibalização de palavras-chave?</a></li>
+                    <li><a href="#como-descobrir-se-esta-acontecendo">Como descobrir se está acontecendo?</a></li>
+                    <li><a href="#como-decidir-o-que-fazer-com-cada-pagina">Como decidir o que fazer com cada página?</a></li>
+                    <li><a href="#como-unir-duas-paginas-sem-perder-trafego">Como unir duas páginas sem perder tráfego?</a></li>
+                    <li><a href="#e-os-links-internos-onde-entram">E os links internos, onde entram?</a></li>
+                    <li><a href="#canibalizacao-afeta-a-presenca-em-respostas-de-ia">Canibalização afeta a presença em respostas de IA?</a></li>
+                    <li><a href="#como-evitar-que-volte-a-acontecer">Como evitar que volte a acontecer?</a></li>
+                    <li><a href="#perguntas-frequentes">Perguntas frequentes</a></li>
+                </ol>
+            </nav>
+            <div class="prose">
+<p>Um sinal comum de canibalização é uma consulta que sobe e desce sem motivo aparente. Num dia aparece um artigo do blog, no outro uma página de serviço, depois um artigo antigo sobre o mesmo assunto. O Google não sabe qual página do seu site é a melhor resposta, e nenhuma delas se firma.</p>
+<p>Isso costuma acontecer em sites que publicam há anos sem um mapa de temas. Cada pessoa escreve sobre o assunto do mês, e com o tempo surgem três ou quatro textos parecidos. Abaixo está como encontro e resolvo esses casos.</p>
+
+<h2 id="o-que-e-canibalizacao-de-palavras-chave">O que é canibalização de palavras-chave?</h2>
+<p>É quando páginas do mesmo site competem pela mesma busca e pela mesma intenção. O problema não é ter duas páginas que mencionam o mesmo termo. É ter duas páginas que tentam entregar a mesma resposta para a mesma pessoa.</p>
+<p>Uma página sobre "o que é CRM" e outra sobre "como escolher um CRM para imobiliária" podem conviver bem, porque atendem momentos diferentes. Dois artigos chamados "guia de CRM" e "tudo sobre CRM" provavelmente não.</p>
+
+<h2 id="como-descobrir-se-esta-acontecendo">Como descobrir se está acontecendo?</h2>
+<p>O jeito mais direto é o relatório de desempenho do Google Search Console:</p>
+<ol>
+<li>Filtre pela consulta que você quer analisar (ou use "consulta contém" para pegar variações).</li>
+<li>Abra a aba de páginas.</li>
+<li>Se duas ou mais URLs recebem impressões relevantes para essa consulta, anote.</li>
+<li>Mude o período para os últimos 3 a 6 meses e veja se as páginas se revezam nas posições.</li>
+</ol>
+<p>Outra checagem rápida: pesquise no Google <strong>site:seudominio.com.br</strong> seguido do assunto. Se aparecem várias páginas com títulos quase iguais, vale abrir uma por uma.</p>
+<blockquote>Várias páginas com impressões para a mesma busca não são problema por si só. Vira problema quando elas se revezam e nenhuma ganha força.</blockquote>
+
+<h2 id="como-decidir-o-que-fazer-com-cada-pagina">Como decidir o que fazer com cada página?</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Situação</th><th>O que fazer</th></tr></thead>
+<tbody>
+<tr><td>Duas páginas respondem a mesma coisa e uma é claramente melhor</td><td>Unir o que houver de útil na melhor e redirecionar a outra com 301</td></tr>
+<tr><td>As páginas parecem iguais, mas poderiam atender intenções diferentes</td><td>Reescrever títulos, introdução e foco de cada uma para separar as intenções</td></tr>
+<tr><td>Uma página de serviço disputa com um artigo do blog</td><td>Fazer o artigo apontar para a página de serviço e tirar do artigo a promessa comercial</td></tr>
+<tr><td>Página antiga sem tráfego e sem links</td><td>Avaliar se vale atualizar, unir a outra ou remover</td></tr>
+</tbody>
+</table></div>
+<p>Para escolher a página principal, olho quatro coisas: qual recebe mais cliques na consulta, qual tem mais links de outros sites, qual está mais alinhada ao que o Google mostra na primeira página e qual é mais importante para o negócio.</p>
+
+<h2 id="como-unir-duas-paginas-sem-perder-trafego">Como unir duas páginas sem perder tráfego?</h2>
+<ul>
+<li><strong>Leve o conteúdo útil:</strong> exemplos, dados e perguntas que só existiam na página que vai sair.</li>
+<li><strong>Redirecione com 301:</strong> a URL antiga deve levar direto para a principal, sem passar por outros redirecionamentos.</li>
+<li><strong>Atualize os links internos:</strong> troque os links que apontavam para a página antiga. Não dependa só do redirecionamento.</li>
+<li><strong>Tire a URL antiga do sitemap.</strong></li>
+<li><strong>Acompanhe por algumas semanas:</strong> compare cliques e posição da consulta principal antes e depois.</li>
+</ul>
+
+<h2 id="e-os-links-internos-onde-entram">E os links internos, onde entram?</h2>
+<p>Os links internos dizem ao Google qual página é a referência do assunto. Se o seu menu, a home e vários artigos apontam para páginas diferentes usando o mesmo texto âncora, você reforça a confusão. Escolha a página principal e faça os textos relacionados apontarem para ela com âncoras que descrevam o tema.</p>
+
+<h2 id="canibalizacao-afeta-a-presenca-em-respostas-de-ia">Canibalização afeta a presença em respostas de IA?</h2>
+<p>Pode afetar de forma indireta. Ferramentas de IA que buscam na web tendem a citar páginas claras e completas sobre um assunto. Quando o conteúdo está espalhado em várias páginas rasas, nenhuma delas se destaca como fonte. Uma página principal bem organizada, com a resposta direta no início, tem mais chance de ser usada.</p>
+
+<h2 id="como-evitar-que-volte-a-acontecer">Como evitar que volte a acontecer?</h2>
+<p>Mantenha uma planilha simples com cada página, a busca principal que ela atende e a intenção. Antes de escrever um texto novo, procure a busca nessa lista. Se já existe uma página para ela, o trabalho provavelmente é atualizar a página existente, não criar outra.</p>
+                <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+                <h3>Duas páginas aparecendo para a mesma busca é sempre canibalização?</h3>
+                <p>Não. Se cada página atende uma intenção diferente e as duas se mantêm estáveis, pode até ser positivo. É canibalização quando elas se revezam e nenhuma se firma.</p>
+                <h3>Posso usar canonical em vez de redirecionar?</h3>
+                <p>O canonical é uma sugestão para o Google e faz sentido quando as duas páginas precisam continuar existindo para o usuário. Se uma delas não precisa mais existir, o redirecionamento 301 é mais claro.</p>
+                <h3>Quanto tempo leva para ver resultado depois de unir páginas?</h3>
+                <p>Depende da frequência com que o Google rastreia o site. Em geral, vale acompanhar algumas semanas, comparando o mesmo período antes e depois na consulta principal.</p>
+                <h3>Preciso de ferramenta paga para encontrar canibalização?</h3>
+                <p>Não. O Google Search Console e a pesquisa site: no Google já resolvem a maioria dos casos. Ferramentas pagas ajudam em sites muito grandes.</p>
+            </div>
+            <aside class="author">
+                <img src="../assets/profile.jpg" alt="Alexandre Leite" width="72" height="72" loading="lazy">
+                <div>
+                    <strong>Alexandre Leite</strong>
+                    <p>Profissional de marketing digital e jornalista em Contagem (MG). Trabalha com SEO, mídia paga, CRM e conteúdo há mais de 5 anos e cobre as Eleições 2026 para a Rádio Itatiaia.</p>
+                    <p class="author-links"><a href="../#resultados">Ver resultados</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../#contato">Contato</a></p>
+                </div>
+            </aside>
+        </article>
+        <section class="wrap more">
+            <h2>Continue lendo</h2>
+            <div class="grid">
+                <a class="card" href="briefing-de-conteudo-seo-modelo.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Briefing de conteúdo para SEO: o que colocar antes de escrever qualquer artigo</strong><span>O que colocar em um briefing de conteúdo para SEO: busca principal, intenção, perguntas a responder, estrutura, fontes e links, com um modelo para copiar.</span><small><time datetime="2026-11-08">8 de novembro de 2026</time> · 3 min de leitura</small></span></a>
+                <a class="card" href="linkagem-interna-como-fazer.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Linkagem interna: como ligar as páginas do site para o Google e para o leitor</strong><span>Como planejar links internos: páginas pilar, texto âncora, páginas órfãs e uma rotina simples para revisar os links a cada novo conteúdo publicado.</span><small><time datetime="2026-11-06">6 de novembro de 2026</time> · 4 min de leitura</small></span></a>
+                <a class="card" href="como-melhorar-ctr-organico-titulo-meta-description.html"><span class="card-top c-blue">SEO e IA</span><span class="card-body"><strong>Como melhorar o CTR orgânico: títulos e meta descriptions que ganham o clique</strong><span>Como achar páginas com muitas impressões e poucos cliques no Search Console e reescrever título e meta description para ganhar o clique.</span><small><time datetime="2026-11-05">5 de novembro de 2026</time> · 5 min de leitura</small></span></a>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <p class="foot-title">Vamos conversar?</p>
+            <p>Estou aberto a oportunidades em marketing e jornalismo, remotas ou na região de Belo Horizonte.</p>
+            <p class="foot-links"><a href="../#contato">Contato</a><a href="https://www.linkedin.com/in/alexandreleitemkt/" target="_blank" rel="noopener">LinkedIn</a><a href="../">Portfólio</a><a href="feed.xml">RSS</a></p>
+            <p class="foot-copy">&copy; 2026 Alexandre Leite · Contagem, MG</p>
+        </div>
+    </footer>
+</body>
+</html>
