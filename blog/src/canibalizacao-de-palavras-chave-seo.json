@@ -1,0 +1,37 @@
+{
+  "slug": "canibalizacao-de-palavras-chave-seo",
+  "title": "Canibalização de palavras-chave: como descobrir páginas do seu site disputando a mesma busca",
+  "seo_title": "Canibalização de palavras-chave: como achar e resolver",
+  "description": "Como achar no Search Console páginas do mesmo site disputando a mesma busca e decidir entre unir, redirecionar, diferenciar ou ajustar links internos.",
+  "date": "2026-11-11",
+  "category": "SEO e IA",
+  "keywords": [
+    "canibalização de palavras-chave",
+    "keyword cannibalization",
+    "Google Search Console",
+    "consolidação de conteúdo",
+    "redirecionamento 301",
+    "intenção de busca",
+    "SEO on-page"
+  ],
+  "quick_answer": "Canibalização acontece quando duas ou mais páginas do mesmo site tentam responder à mesma busca e o Google alterna entre elas. Para achar, filtre a consulta no Search Console e veja se várias URLs recebem impressões. Depois, escolha uma página principal: una o conteúdo e redirecione a outra, ou diferencie a intenção de cada uma e ajuste os links internos.",
+  "body_html": "<p>Um sinal comum de canibalização é uma consulta que sobe e desce sem motivo aparente. Num dia aparece um artigo do blog, no outro uma página de serviço, depois um artigo antigo sobre o mesmo assunto. O Google não sabe qual página do seu site é a melhor resposta, e nenhuma delas se firma.</p>\n<p>Isso costuma acontecer em sites que publicam há anos sem um mapa de temas. Cada pessoa escreve sobre o assunto do mês, e com o tempo surgem três ou quatro textos parecidos. Abaixo está como encontro e resolvo esses casos.</p>\n\n<h2>O que é canibalização de palavras-chave?</h2>\n<p>É quando páginas do mesmo site competem pela mesma busca e pela mesma intenção. O problema não é ter duas páginas que mencionam o mesmo termo. É ter duas páginas que tentam entregar a mesma resposta para a mesma pessoa.</p>\n<p>Uma página sobre \"o que é CRM\" e outra sobre \"como escolher um CRM para imobiliária\" podem conviver bem, porque atendem momentos diferentes. Dois artigos chamados \"guia de CRM\" e \"tudo sobre CRM\" provavelmente não.</p>\n\n<h2>Como descobrir se está acontecendo?</h2>\n<p>O jeito mais direto é o relatório de desempenho do Google Search Console:</p>\n<ol>\n<li>Filtre pela consulta que você quer analisar (ou use \"consulta contém\" para pegar variações).</li>\n<li>Abra a aba de páginas.</li>\n<li>Se duas ou mais URLs recebem impressões relevantes para essa consulta, anote.</li>\n<li>Mude o período para os últimos 3 a 6 meses e veja se as páginas se revezam nas posições.</li>\n</ol>\n<p>Outra checagem rápida: pesquise no Google <strong>site:seudominio.com.br</strong> seguido do assunto. Se aparecem várias páginas com títulos quase iguais, vale abrir uma por uma.</p>\n<blockquote>Várias páginas com impressões para a mesma busca não são problema por si só. Vira problema quando elas se revezam e nenhuma ganha força.</blockquote>\n\n<h2>Como decidir o que fazer com cada página?</h2>\n<table>\n<thead><tr><th>Situação</th><th>O que fazer</th></tr></thead>\n<tbody>\n<tr><td>Duas páginas respondem a mesma coisa e uma é claramente melhor</td><td>Unir o que houver de útil na melhor e redirecionar a outra com 301</td></tr>\n<tr><td>As páginas parecem iguais, mas poderiam atender intenções diferentes</td><td>Reescrever títulos, introdução e foco de cada uma para separar as intenções</td></tr>\n<tr><td>Uma página de serviço disputa com um artigo do blog</td><td>Fazer o artigo apontar para a página de serviço e tirar do artigo a promessa comercial</td></tr>\n<tr><td>Página antiga sem tráfego e sem links</td><td>Avaliar se vale atualizar, unir a outra ou remover</td></tr>\n</tbody>\n</table>\n<p>Para escolher a página principal, olho quatro coisas: qual recebe mais cliques na consulta, qual tem mais links de outros sites, qual está mais alinhada ao que o Google mostra na primeira página e qual é mais importante para o negócio.</p>\n\n<h2>Como unir duas páginas sem perder tráfego?</h2>\n<ul>\n<li><strong>Leve o conteúdo útil:</strong> exemplos, dados e perguntas que só existiam na página que vai sair.</li>\n<li><strong>Redirecione com 301:</strong> a URL antiga deve levar direto para a principal, sem passar por outros redirecionamentos.</li>\n<li><strong>Atualize os links internos:</strong> troque os links que apontavam para a página antiga. Não dependa só do redirecionamento.</li>\n<li><strong>Tire a URL antiga do sitemap.</strong></li>\n<li><strong>Acompanhe por algumas semanas:</strong> compare cliques e posição da consulta principal antes e depois.</li>\n</ul>\n\n<h2>E os links internos, onde entram?</h2>\n<p>Os links internos dizem ao Google qual página é a referência do assunto. Se o seu menu, a home e vários artigos apontam para páginas diferentes usando o mesmo texto âncora, você reforça a confusão. Escolha a página principal e faça os textos relacionados apontarem para ela com âncoras que descrevam o tema.</p>\n\n<h2>Canibalização afeta a presença em respostas de IA?</h2>\n<p>Pode afetar de forma indireta. Ferramentas de IA que buscam na web tendem a citar páginas claras e completas sobre um assunto. Quando o conteúdo está espalhado em várias páginas rasas, nenhuma delas se destaca como fonte. Uma página principal bem organizada, com a resposta direta no início, tem mais chance de ser usada.</p>\n\n<h2>Como evitar que volte a acontecer?</h2>\n<p>Mantenha uma planilha simples com cada página, a busca principal que ela atende e a intenção. Antes de escrever um texto novo, procure a busca nessa lista. Se já existe uma página para ela, o trabalho provavelmente é atualizar a página existente, não criar outra.</p>",
+  "faq": [
+    {
+      "q": "Duas páginas aparecendo para a mesma busca é sempre canibalização?",
+      "a": "Não. Se cada página atende uma intenção diferente e as duas se mantêm estáveis, pode até ser positivo. É canibalização quando elas se revezam e nenhuma se firma."
+    },
+    {
+      "q": "Posso usar canonical em vez de redirecionar?",
+      "a": "O canonical é uma sugestão para o Google e faz sentido quando as duas páginas precisam continuar existindo para o usuário. Se uma delas não precisa mais existir, o redirecionamento 301 é mais claro."
+    },
+    {
+      "q": "Quanto tempo leva para ver resultado depois de unir páginas?",
+      "a": "Depende da frequência com que o Google rastreia o site. Em geral, vale acompanhar algumas semanas, comparando o mesmo período antes e depois na consulta principal."
+    },
+    {
+      "q": "Preciso de ferramenta paga para encontrar canibalização?",
+      "a": "Não. O Google Search Console e a pesquisa site: no Google já resolvem a maioria dos casos. Ferramentas pagas ajudam em sites muito grandes."
+    }
+  ]
+}
