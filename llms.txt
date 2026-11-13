@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Perfil da Empresa no Google: checklist de SEO local para aparecer no mapa](https://alexandreleite-mkt.vercel.app/blog/perfil-da-empresa-no-google-seo-local.html): O que revisar no Perfil da Empresa no Google para aparecer no mapa e na busca local: categoria, serviços, fotos, avaliações, site e dados consistentes.
 - [Canibalização de palavras-chave: como descobrir páginas do seu site disputando a mesma busca](https://alexandreleite-mkt.vercel.app/blog/canibalizacao-de-palavras-chave-seo.html): Como achar no Search Console páginas do mesmo site disputando a mesma busca e decidir entre unir, redirecionar, diferenciar ou ajustar links internos.
 - [Briefing de conteúdo para SEO: o que colocar antes de escrever qualquer artigo](https://alexandreleite-mkt.vercel.app/blog/briefing-de-conteudo-seo-modelo.html): O que colocar em um briefing de conteúdo para SEO: busca principal, intenção, perguntas a responder, estrutura, fontes e links, com um modelo para copiar.
 - [Linkagem interna: como ligar as páginas do site para o Google e para o leitor](https://alexandreleite-mkt.vercel.app/blog/linkagem-interna-como-fazer.html): Como planejar links internos: páginas pilar, texto âncora, páginas órfãs e uma rotina simples para revisar os links a cada novo conteúdo publicado.
