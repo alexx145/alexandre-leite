@@ -1,0 +1,37 @@
+{
+  "slug": "cadencia-de-sms-para-nutrir-leads",
+  "title": "Cadência de SMS para nutrir leads: como montar um fluxo que ajuda e não irrita",
+  "seo_title": "Cadência de SMS para leads: como montar o fluxo",
+  "description": "Como montar uma cadência de SMS para follow-up e reativação de leads: gatilhos, intervalos, texto curto, consentimento, opt-out e integração com o CRM.",
+  "date": "2026-11-16",
+  "category": "CRM e automação",
+  "keywords": [
+    "SMS marketing",
+    "cadência de SMS",
+    "follow-up de leads",
+    "automação de SMS",
+    "nutrição de leads",
+    "reativação de clientes",
+    "CRM"
+  ],
+  "quick_answer": "Uma boa cadência de SMS começa por um gatilho claro (o lead pediu contato, sumiu depois da proposta ou está inativo), usa poucas mensagens curtas com um próximo passo em cada uma, respeita horário e consentimento, oferece saída fácil e para assim que a pessoa responde ou compra. Tudo isso conectado ao CRM, para o vendedor saber o que já foi enviado.",
+  "body_html": "<p>O SMS tem uma vantagem que o e-mail perdeu: ele é lido. A mensagem chega na tela do celular, é curta e não disputa espaço com promoções numa caixa de entrada lotada. Por isso mesmo, é fácil errar a mão. Mensagem demais, no horário errado ou sem motivo vira incômodo, e a pessoa pede para sair.</p>\n<p>Quando trabalhei numa concessionária nos Estados Unidos, montei fluxos de SMS com cadência definida para dar sequência a leads novos, fazer follow-up depois da visita e reativar clientes parados. O que aprendi é que a cadência importa menos pelo número de mensagens e mais por três coisas: o gatilho, o texto e a hora de parar.</p>\n\n<h2>1. Qual é o gatilho de cada fluxo?</h2>\n<p>Cada cadência deve nascer de um evento, não de uma vontade de \"mandar alguma coisa\". Os gatilhos mais comuns:</p>\n<ul>\n<li><strong>Lead novo</strong>: a pessoa preencheu um formulário ou pediu contato.</li>\n<li><strong>Lead que esfriou</strong>: recebeu proposta ou visitou e parou de responder.</li>\n<li><strong>Cliente inativo</strong>: comprou no passado e não voltou dentro do prazo esperado.</li>\n<li><strong>Lembrete</strong>: visita, reunião ou demonstração agendada.</li>\n</ul>\n<p>Gatilhos diferentes pedem mensagens diferentes. Misturar todos num fluxo só é a receita para mandar a coisa errada para a pessoa errada.</p>\n\n<h2>2. Quantas mensagens e com qual intervalo?</h2>\n<p>Não existe número mágico, mas existe bom senso. Para lead novo, a primeira mensagem vale mais quanto mais rápido chega, enquanto o interesse ainda está quente. Depois, os intervalos podem aumentar: algumas horas, depois dias.</p>\n<p>Para reativação, o ritmo é mais lento. Quem está parado há meses não precisa de três mensagens na mesma semana.</p>\n<p>Uma regra prática: escreva a cadência inteira numa planilha antes de automatizar, com o dia, o horário, o objetivo e o texto de cada envio. Se você não consegue explicar por que a mensagem 4 existe, ela provavelmente não deveria existir.</p>\n\n<h2>3. Como escrever um SMS que a pessoa responde?</h2>\n<ul>\n<li><strong>Diga quem está falando</strong> logo no começo. SMS sem identificação parece golpe.</li>\n<li><strong>Uma ideia por mensagem</strong>, com um próximo passo claro: responder, agendar, clicar.</li>\n<li><strong>Tom de conversa</strong>, como um vendedor falaria, não como um anúncio.</li>\n<li><strong>Personalize com o que você sabe</strong>: o nome, o produto que a pessoa olhou, a data da visita.</li>\n<li><strong>Link só quando faz sentido</strong>, e de preferência para uma página feita para aquele contexto.</li>\n</ul>\n\n<h2>4. Consentimento, horário e saída fácil</h2>\n<p>SMS é um canal pessoal. Envie apenas para quem autorizou o contato e respeite as regras do país (no Brasil, a LGPD; nos Estados Unidos, as regras de consentimento para mensagens). Evite horários de descanso e fins de semana, a não ser que o contexto peça.</p>\n<p>Ofereça uma forma simples de sair, como responder \"SAIR\", e respeite o pedido na hora. Uma base menor e interessada vale mais do que uma lista grande que só gera reclamação.</p>\n\n<h2>5. Quando a cadência deve parar?</h2>\n<p>Esse é o ponto que mais fluxos esquecem. A automação deve parar quando:</p>\n<ul>\n<li>a pessoa responde (a partir daí, é conversa humana);</li>\n<li>agenda ou compra;</li>\n<li>pede para não receber mais mensagens.</li>\n</ul>\n<p>Nada queima mais a marca do que mandar \"Ainda tem interesse?\" para quem fechou negócio ontem.</p>\n\n<h2>6. O SMS precisa conversar com o CRM</h2>\n<p>A cadência funciona melhor quando está ligada ao CRM. O vendedor precisa ver o que já foi enviado, o que a pessoa respondeu e em que etapa ela está. Assim, o SMS não atropela uma ligação, e a ligação não repete o que a mensagem já disse.</p>\n<p>Também é no CRM que você mede o que importa: taxa de resposta por mensagem, quantos leads avançaram de etapa e quantos pediram para sair. Se uma mensagem gera muitos pedidos de saída, reescreva ou corte.</p>\n<blockquote>SMS bom parece um lembrete útil de alguém que você conhece. SMS ruim parece spam. A diferença está no gatilho, no texto e em saber a hora de parar.</blockquote>\n\n<h2>Checklist rápido</h2>\n<ol>\n<li>Um fluxo por gatilho: lead novo, lead frio, inativo, lembrete.</li>\n<li>Cadência escrita numa planilha antes de automatizar.</li>\n<li>Mensagens curtas, identificadas e com um próximo passo.</li>\n<li>Só para quem autorizou, em horário adequado e com saída fácil.</li>\n<li>Parada automática quando a pessoa responde, compra ou pede para sair.</li>\n<li>Integração com o CRM e acompanhamento das respostas.</li>\n</ol>",
+  "faq": [
+    {
+      "q": "SMS ainda funciona com WhatsApp tão popular?",
+      "a": "Depende do público e do país. Em mercados onde o SMS é o canal padrão, como os Estados Unidos, ele é essencial. No Brasil, costuma funcionar melhor para lembretes e avisos rápidos, muitas vezes junto com o WhatsApp."
+    },
+    {
+      "q": "Quantos SMS posso mandar para um lead?",
+      "a": "Não há um número ideal. O certo é ter um motivo para cada mensagem, aumentar o intervalo com o tempo e parar assim que a pessoa responde, compra ou pede para sair."
+    },
+    {
+      "q": "Preciso de autorização para mandar SMS de marketing?",
+      "a": "Sim. Envie apenas para quem consentiu em receber contato e siga as regras de proteção de dados do país, oferecendo sempre uma forma simples de cancelar."
+    },
+    {
+      "q": "Qual ferramenta usar para automatizar SMS?",
+      "a": "O ideal é uma ferramenta integrada ao CRM que você já usa, para que o histórico de mensagens fique junto com o restante do relacionamento com o lead."
+    }
+  ]
+}
