@@ -1,0 +1,37 @@
+{
+  "slug": "pesquisa-de-palavras-chave-para-blog",
+  "title": "Pesquisa de palavras-chave para blog: como escolher temas que trazem cliente",
+  "seo_title": "Pesquisa de palavras-chave para blog: passo a passo",
+  "description": "Como fazer pesquisa de palavras-chave para o blog da empresa: fontes gratuitas, intenção de busca e como priorizar temas que trazem cliente.",
+  "date": "2026-11-23",
+  "category": "SEO e IA",
+  "keywords": [
+    "pesquisa de palavras-chave",
+    "palavras-chave para blog",
+    "intenção de busca",
+    "planejamento de conteúdo",
+    "SEO para blog",
+    "Google Search Console",
+    "pauta de conteúdo"
+  ],
+  "quick_answer": "Uma boa pesquisa de palavras-chave começa nas dúvidas reais dos clientes, não na ferramenta. Junte perguntas do comercial, do atendimento, do Search Console e das sugestões do Google, agrupe por tema, identifique a intenção de cada busca e priorize o que tem chance de virar cliente. Volume de busca é só um critério, e muitas vezes não é o mais importante.",
+  "body_html": "<p>Muita empresa decide a pauta do blog pelo que acha interessante. O resultado são textos bem escritos que ninguém procura, ou que trazem visitas de quem nunca vai comprar. A pesquisa de palavras-chave existe para resolver isso: descobrir o que o seu cliente digita no Google (e pergunta às IAs) quando está tentando resolver um problema que você resolve.</p>\n<p>Na Saipos, a pauta do blog nascia dessa pesquisa. Antes de escrever, a gente entendia o que o dono de restaurante procurava e por quê. Abaixo está o processo que eu sigo, do zero até a lista de pautas.</p>\n\n<h2>1. Comece pelas perguntas reais, não pela ferramenta</h2>\n<p>As melhores palavras-chave costumam estar dentro da própria empresa:</p>\n<ul>\n<li><strong>Comercial:</strong> quais dúvidas aparecem em toda reunião de venda?</li>\n<li><strong>Atendimento e suporte:</strong> o que os clientes perguntam depois que compram?</li>\n<li><strong>Objeções:</strong> por que as pessoas desistem? Preço, comparação com concorrente, medo de mudar?</li>\n</ul>\n<p>Anote tudo com as palavras que o cliente usa, não com o jargão da empresa. Quem vende chama de \"plataforma de gestão\"; o cliente busca \"como controlar o estoque do restaurante\".</p>\n\n<h2>2. Use fontes gratuitas para ampliar a lista</h2>\n<ul>\n<li><strong>Google Search Console:</strong> mostra as buscas que já trazem impressões para o seu site. Ouro para quem já tem algum conteúdo.</li>\n<li><strong>Sugestões do Google:</strong> o autocompletar e a seção \"As pessoas também perguntam\" revelam variações e dúvidas relacionadas.</li>\n<li><strong>Respostas de IA:</strong> pergunte ao ChatGPT ou ao Perplexity como alguém pesquisaria o seu tema e veja quais fontes eles citam.</li>\n<li><strong>Fóruns e comunidades:</strong> Reddit, grupos e comentários mostram a dúvida do jeito que ela realmente aparece.</li>\n</ul>\n<p>Ferramentas pagas como Semrush e Ahrefs ajudam com volume e concorrência, mas não substituem essa etapa. Elas mostram números; as perguntas reais mostram o contexto.</p>\n\n<h2>3. Identifique a intenção de cada busca</h2>\n<p>Duas buscas parecidas podem pedir conteúdos totalmente diferentes. Separe em quatro grupos:</p>\n<ul>\n<li><strong>Aprender:</strong> \"o que é CMV\", \"como calcular ficha técnica\". Pede guia ou explicação.</li>\n<li><strong>Comparar:</strong> \"melhor sistema para restaurante\", \"X ou Y\". Pede comparativo honesto.</li>\n<li><strong>Resolver um problema específico:</strong> \"como diminuir desperdício na cozinha\". Pede passo a passo.</li>\n<li><strong>Comprar:</strong> \"sistema para restaurante preço\". Pede página de produto, não post de blog.</li>\n</ul>\n<p>Um jeito rápido de confirmar: pesquise a palavra e veja o que o Google já mostra no topo. Se são guias, faça um guia. Se são páginas de produto, um post dificilmente vai ranquear ali.</p>\n\n<h2>4. Agrupe por tema, não por palavra</h2>\n<p>Escrever um texto para cada variação (\"como fazer ficha técnica\", \"ficha técnica de restaurante\", \"modelo de ficha técnica\") gera páginas competindo entre si. Junte as variações que têm a mesma intenção em um único conteúdo completo e use as outras como subtítulos ou perguntas do FAQ.</p>\n\n<h2>5. Priorize pelo valor para o negócio</h2>\n<p>Com a lista agrupada, dê uma nota para cada tema considerando três coisas:</p>\n<ol>\n<li><strong>Proximidade da compra:</strong> quem busca isso está perto de precisar do seu produto?</li>\n<li><strong>Chance real de ranquear:</strong> quem aparece no topo hoje? Dá para fazer melhor?</li>\n<li><strong>Volume de busca:</strong> importa, mas vem por último. Um tema com 100 buscas de quem está pronto para comprar vale mais que um com 10 mil de curiosos.</li>\n</ol>\n<blockquote>Volume traz visita. Intenção traz cliente. A pauta precisa equilibrar os dois, mas começar pela intenção.</blockquote>\n\n<h2>6. Transforme a lista em pauta</h2>\n<p>Para cada tema escolhido, monte um briefing curto antes de escrever: palavra-chave principal, variações, intenção, perguntas que o texto precisa responder, links internos e chamada para ação. Isso evita textos genéricos e facilita a revisão.</p>\n<p>Depois de publicar, acompanhe no Search Console por algumas semanas. As buscas que aparecerem para aquele texto viram ideias de ajuste ou de novos conteúdos, e o ciclo recomeça.</p>\n\n<h2>Checklist rápido</h2>\n<ol>\n<li>Liste as dúvidas reais do comercial, do atendimento e das objeções.</li>\n<li>Amplie com Search Console, sugestões do Google, IAs e comunidades.</li>\n<li>Classifique a intenção de cada busca olhando o que já aparece no topo.</li>\n<li>Agrupe variações com a mesma intenção em um único conteúdo.</li>\n<li>Priorize por proximidade da compra, chance de ranquear e, por último, volume.</li>\n<li>Faça um briefing antes de escrever e acompanhe o resultado depois.</li>\n</ol>",
+  "faq": [
+    {
+      "q": "Preciso de ferramenta paga para fazer pesquisa de palavras-chave?",
+      "a": "Não para começar. Search Console, sugestões do Google, respostas de IA e as dúvidas do comercial já rendem uma boa lista. Ferramentas pagas ajudam a estimar volume e concorrência quando o blog cresce."
+    },
+    {
+      "q": "Qual volume de busca é bom para um post de blog?",
+      "a": "Não existe número mínimo. Em nichos B2B, temas com poucas buscas mensais podem trazer clientes muito qualificados. Avalie primeiro a intenção e a proximidade da compra."
+    },
+    {
+      "q": "Devo fazer um texto para cada palavra-chave?",
+      "a": "Não. Variações com a mesma intenção devem ficar no mesmo conteúdo. Textos separados para buscas quase iguais acabam competindo entre si no Google."
+    },
+    {
+      "q": "Pesquisa de palavras-chave ainda vale com as buscas por IA?",
+      "a": "Vale. As IAs respondem com base em conteúdos que explicam bem as dúvidas reais das pessoas. Entender como seu público pergunta continua sendo o ponto de partida, no Google ou no ChatGPT."
+    }
+  ]
+}
