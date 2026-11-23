@@ -56,6 +56,7 @@ Portfólio pessoal em português, inglês e espanhol. Contato: alexandreaugusto1
 
 ## Blog
 - [Todos os artigos](https://alexandreleite-mkt.vercel.app/blog/)
+- [Pesquisa de palavras-chave para blog: como escolher temas que trazem cliente](https://alexandreleite-mkt.vercel.app/blog/pesquisa-de-palavras-chave-para-blog.html): Como fazer pesquisa de palavras-chave para o blog da empresa: fontes gratuitas, intenção de busca e como priorizar temas que trazem cliente.
 - [Cadência de SMS para nutrir leads: como montar um fluxo que ajuda e não irrita](https://alexandreleite-mkt.vercel.app/blog/cadencia-de-sms-para-nutrir-leads.html): Como montar uma cadência de SMS para follow-up e reativação de leads: gatilhos, intervalos, texto curto, consentimento, opt-out e integração com o CRM.
 - [Como montar um portfólio de marketing digital que o recrutador realmente lê](https://alexandreleite-mkt.vercel.app/blog/como-montar-portfolio-de-marketing-digital.html): O que colocar no portfólio de marketing, como mostrar resultados sem expor clientes, o que fazer sem cases e onde hospedar para o recrutador ler.
 - [Perfil da Empresa no Google: checklist de SEO local para aparecer no mapa](https://alexandreleite-mkt.vercel.app/blog/perfil-da-empresa-no-google-seo-local.html): O que revisar no Perfil da Empresa no Google para aparecer no mapa e na busca local: categoria, serviços, fotos, avaliações, site e dados consistentes.
