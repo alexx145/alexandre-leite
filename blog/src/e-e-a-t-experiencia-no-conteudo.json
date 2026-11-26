@@ -1,0 +1,33 @@
+{
+ "slug": "e-e-a-t-experiencia-no-conteudo",
+ "title": "E-E-A-T na prática: como mostrar experiência real no conteúdo",
+ "seo_title": "E-E-A-T na prática: experiência real no conteúdo",
+ "description": "O que é E-E-A-T, como mostrar experiência real nos seus artigos e o que aumenta a confiança no conteúdo, no Google e nas respostas de IA.",
+ "date": "2026-11-25",
+ "category": "SEO e IA",
+ "keywords": [
+  "E-E-A-T",
+  "experiência no conteúdo",
+  "SEO e IA"
+ ],
+ "quick_answer": "E-E-A-T significa experiência, especialidade, autoridade e confiabilidade. Não é um fator isolado de ranqueamento, mas resume o que o Google busca em conteúdo útil. Na prática, mostre casos reais e o processo que você seguiu, identifique o autor, cite fontes, mantenha datas atualizadas e cheque cada dado antes de publicar.",
+ "body_html": "<p>Com a IA escrevendo texto em escala, conteúdo genérico ficou barato. O que ficou raro é o conteúdo que mostra que alguém de verdade fez, testou e aprendeu com aquilo. É isso que o Google descreve como E-E-A-T: experiência, especialidade, autoridade e confiabilidade.</p>\n<p>O conceito vem das diretrizes que o Google usa para treinar seus avaliadores de qualidade. Ele não é um fator de ranqueamento isolado, com nota ou botão para ligar. Mas resume bem o que o Google diz buscar: conteúdo útil, confiável e feito para pessoas. E é o mesmo tipo de sinal que ajuda uma página a ser citada em respostas de IA.</p>\n\n<h2>O que significa cada letra do E-E-A-T?</h2>\n<ul>\n<li><strong>Experiência:</strong> quem escreveu viveu aquilo? Usou o produto, aplicou o método, cometeu o erro?</li>\n<li><strong>Especialidade:</strong> a pessoa tem conhecimento para tratar do tema com profundidade?</li>\n<li><strong>Autoridade:</strong> outras fontes reconhecem quem escreveu ou a empresa como referência no assunto?</li>\n<li><strong>Confiabilidade:</strong> a informação é correta, tem fonte, está atualizada e deixa claro quem está por trás? Para o Google, essa é a parte mais importante.</li>\n</ul>\n\n<h2>Como mostrar experiência real no texto?</h2>\n<p>Experiência não se declara, se demonstra. Algumas formas práticas:</p>\n<ul>\n<li><strong>Conte o caso:</strong> o que você fez, em que contexto e o que aconteceu. \"Quando refizemos as landing pages, a conversão de lead em venda subiu\" vale mais do que \"landing pages são importantes\".</li>\n<li><strong>Mostre o processo:</strong> passo a passo com os detalhes que só quem fez conhece, inclusive o que não funcionou.</li>\n<li><strong>Use material próprio:</strong> prints, planilhas, exemplos e números reais (com autorização do cliente quando for o caso).</li>\n<li><strong>Dê opinião fundamentada:</strong> quando você recomenda uma coisa e não outra, explique por quê.</li>\n</ul>\n<p>No jornalismo, a regra é parecida: reportagem boa tem personagem, fato e fonte. Texto que só repete definições parece com todos os outros, e é exatamente esse tipo de conteúdo que a IA consegue gerar sozinha.</p>\n\n<h2>Como deixar claro quem está por trás do conteúdo?</h2>\n<ul>\n<li><strong>Autor identificado:</strong> nome, foto e um resumo curto da experiência em cada artigo.</li>\n<li><strong>Página do autor ou \"Sobre\":</strong> com trajetória, formação e links para perfis profissionais.</li>\n<li><strong>Dados estruturados:</strong> marcação Article com autor e datas, e Person ou Organization ligadas aos perfis oficiais.</li>\n<li><strong>Datas visíveis:</strong> publicação e atualização, que batam com o que está na marcação.</li>\n</ul>\n\n<h2>O que aumenta a confiabilidade de uma página?</h2>\n<ol>\n<li><strong>Checagem antes de publicar:</strong> confira números, nomes e datas na fonte original.</li>\n<li><strong>Fontes citadas:</strong> link para estudo, documentação oficial ou dado público quando fizer uma afirmação.</li>\n<li><strong>Atualização:</strong> revise páginas antigas e corrija o que mudou.</li>\n<li><strong>Transparência:</strong> contato fácil de achar, empresa identificada e política clara quando houver venda ou coleta de dados.</li>\n<li><strong>Sem exagero:</strong> promessa grande demais derruba a confiança do leitor antes de derrubar a do Google.</li>\n</ol>\n\n<h2>E-E-A-T ajuda a ser citado por IA?</h2>\n<p>Não existe garantia, mas os sinais são os mesmos. Assistentes de IA tendem a citar páginas claras, com resposta direta, informação verificável e autor ou marca reconhecível. Conteúdo com experiência real também traz algo que o modelo não encontra em mil textos iguais: um caso, um dado próprio, uma opinião com argumento.</p>\n\n<h2>Por onde começar?</h2>\n<ul>\n<li>Escolha os 5 artigos que mais trazem visitas ou leads.</li>\n<li>Adicione autor, data de atualização e um exemplo real em cada um.</li>\n<li>Revise dados e fontes.</li>\n<li>Crie ou melhore a página \"Sobre\" e a página do autor.</li>\n<li>Repita o processo nos próximos artigos, já na hora de escrever.</li>\n</ul>\n<p>Conteúdo com experiência leva um pouco mais de tempo para escrever. Em troca, é o tipo de página que o leitor confia, o Google valoriza e a IA tem motivo para citar.</p>",
+ "faq": [
+  {
+   "q": "E-E-A-T é um fator de ranqueamento do Google?",
+   "a": "Não como uma nota isolada. É um conceito das diretrizes dos avaliadores de qualidade do Google que resume o que o buscador procura: conteúdo útil, confiável e feito para pessoas."
+  },
+  {
+   "q": "Qual a diferença entre experiência e especialidade?",
+   "a": "Experiência é ter vivido aquilo na prática, como usar um produto ou aplicar um método. Especialidade é ter conhecimento profundo sobre o tema. O ideal é o conteúdo mostrar as duas."
+  },
+  {
+   "q": "Conteúdo escrito com IA pode ter E-E-A-T?",
+   "a": "Pode, se a IA for ferramenta de apoio. O que dá experiência ao texto são os casos, dados e opiniões de quem fez, além da revisão e da checagem humanas."
+  },
+  {
+   "q": "Preciso de página de autor no blog?",
+   "a": "É recomendável. Ela mostra quem está por trás do conteúdo, a trajetória da pessoa e os perfis profissionais, o que reforça a confiança do leitor e ajuda as máquinas a entender a autoria."
+  }
+ ]
+}
